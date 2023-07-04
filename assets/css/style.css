@@ -1,0 +1,108 @@
+/*  
+file prefixed with an underscore to indicate that 
+this is a partial file and is meant to be imported 
+into other SCSS files. 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Mark Pro, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: rgba(22, 22, 23, 0.9);
+  backdrop-filter: blur(5px);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+  border-width: 0.005rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  margin: 0;
+  padding: 0 2rem;
+  width: 85%;
+  margin-top: 0.005rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  transition: all 0.2s ease-in-out;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+header .header-content .profile {
+  display: flex;
+}
+header .header-content .profile h1 {
+  font-size: 1.2rem;
+  padding-inline: 0.5rem;
+}
+header .header-content .profile p {
+  align-self: center;
+}
+header .header-content .profile img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+  border-width: 0.07rem;
+}
+@media only screen and (max-width: 1000px) {
+  header .header-content p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header .header-content h1, header .header-content p {
+    display: none;
+  }
+}
+header .header-content nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+header .header-content nav ul li {
+  list-style: none;
+  padding-inline: 1rem;
+}
+header .header-content nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+header .header-content nav ul li a:hover {
+  color: #007bff;
+}
+
+footer {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 10px;
+  padding: 0.8rem;
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */

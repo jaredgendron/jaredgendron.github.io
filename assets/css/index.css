@@ -1,0 +1,233 @@
+/*  
+file prefixed with an underscore to indicate that 
+this is a partial file and is meant to be imported 
+into other SCSS files. 
+*/
+section {
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+}
+section h2 {
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+@media only screen and (max-width: 700px) {
+  section {
+    padding: 1rem 2rem;
+  }
+}
+
+.quote {
+  background-color: rgb(0, 0, 0);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #fff;
+}
+.quote h1 {
+  font-size: 3rem;
+  text-align: left;
+}
+.quote p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.quote .gradient1, .quote .gradient2 {
+  background-image: linear-gradient(to right, white, grey);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quote .gradient2 {
+  background-image: linear-gradient(to right, pink, #b0b43c);
+}
+
+#about {
+  padding-inline: 8rem;
+}
+@media only screen and (max-width: 700px) {
+  #about {
+    padding: 1rem 2rem;
+  }
+}
+
+#skills {
+  padding-inline: 3rem;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 700px) {
+  #skills {
+    padding-inline: 0.5rem;
+    flex-direction: column;
+  }
+}
+#skills .container {
+  flex: 1;
+}
+#skills .container h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#skills .container .bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#skills .container .bubbles .bubble {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+#portfolio {
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+#portfolio h2 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-inline: 7rem;
+}
+@media only screen and (max-width: 700px) {
+  #portfolio h2 {
+    padding-inline: 2rem;
+  }
+}
+#portfolio .carousel {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+@media only screen and (max-width: 700px) {
+  #portfolio .carousel {
+    height: 800px;
+  }
+}
+#portfolio .carousel .carousel-slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#portfolio .carousel .carousel-slides .carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+@media only screen and (max-width: 700px) {
+  #portfolio .carousel .carousel-slides .carousel-slide {
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+}
+#portfolio .carousel .carousel-slides .carousel-slide.active {
+  opacity: 1;
+}
+#portfolio .carousel .carousel-slides .carousel-slide .carousel-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+#portfolio .carousel .carousel-slides .carousel-slide .carousel-container img {
+  height: 100%;
+  object-fit: contain;
+}
+#portfolio .carousel .carousel-slides .carousel-slide .carousel-container .button {
+  display: inline-block;
+  background-color: rgba(22, 22, 23, 0.9);
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 11rem;
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: auto;
+}
+#portfolio .carousel .pagination {
+  display: flex;
+  margin-top: 1rem;
+}
+#portfolio .carousel .pagination .page-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+#portfolio .carousel .pagination .page-btn:hover, #portfolio .carousel .pagination .page-btn.active {
+  background-color: grey;
+}
+
+#contact {
+  list-style: none;
+  background-color: black;
+  color: white;
+  min-height: none;
+}
+#contact .quote {
+  height: 20rem;
+}
+#contact li {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#contact li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+#contact li a:hover {
+  color: rgb(0, 123, 255);
+}
+#contact li a img {
+  width: 2.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,164 @@
+---
+permalink: /
+layout: layout
+---
+
+<link rel="stylesheet" href="assets/css/index.css">
+
+<main>
+  <section class="quote">
+    <h1>Welcome to my <span class="gradient1">portfolio.</span></h1>
+    <p>This is my personal webpage to showcase my skills and some of my projects</p>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>{{ site.data.data.bio}}</p>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>Strengths</h2>
+      <div class="bubbles">
+        {% for strength in site.data.data.strengths %}
+        <div class="bubble">{{ strength }}</div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="container">
+      <h2>Software</h2>
+      <div class="bubbles">
+        {% for software in site.data.data.software %}
+        <div class="bubble">{{ software }}</div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="container">
+      <h2>Languages</h2>
+      <div class="bubbles">
+        {% for language in site.data.data.languages %}
+        <div class="bubble">{{ language }}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="carousel">
+      <div class="carousel-slides">
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>3 Degree of Freedom Robot</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>Dynamic Parking Sign</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>iOS Application</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>Simple RISC Machine</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>Computer Vision Algorithm</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>RC4 Decryption Hardware</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>VGA output hardware</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>Dynamic Parking Sign</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide"> 
+          <div class="carousel-container"><img src=""></div>
+          <div class="carousel-container">
+            <h1>iOS Application</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
+            <div class="button">
+              <p>See all projects</p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="pagination">
+        <button class="page-btn" data-slide="1"></button>
+        <button class="page-btn" data-slide="2"></button>
+        <button class="page-btn" data-slide="3"></button>
+        <button class="page-btn" data-slide="4"></button>
+        <button class="page-btn" data-slide="5"></button>
+        <button class="page-btn" data-slide="6"></button>
+        <button class="page-btn" data-slide="7"></button>
+        <button class="page-btn" data-slide="8"></button>
+        <button class="page-btn" data-slide="9"></button>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="quote">
+      <h1>Let's get in  <span class="gradient2">touch.</span></h1>
+      <p>Here are several other places to connect with me</p>
+      <ul>
+        <li><a href="https://ca.linkedin.com/in/jared-gendron-1b94771a3"><img src="assets/images/linkedin.png"></a></li>
+        <li><a href="https://github.com/jaredgendron"><img src="assets/images/github.png"></a></li>
+        <li><a href="https://twitter.com/jared_gendron"><img src="assets/images/twitter.png"></a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/carousel.js" type="text/javascript"></script>

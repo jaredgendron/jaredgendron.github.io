@@ -1,0 +1,65 @@
+{
+  "name": "Jared Gendron",
+  "title": "Electrical Engineering Graduate",
+  "location": "Vancouver, BC",
+  "bio": "My name is Jared Gendron and I'm an electrical engineer based in Vancouver, British Columbia. As a recent Electrical Engineering graduate from the University of British Columbia, I aim to leverage my knowledge to contribute highly to your organization. With a profound understanding of electrical systems, I possess strong analytical skills that aid in problem-solving. I seek to join a team of professionals in a dynamic work environment to enhance my skills and make a meaningful contribution to the company's growth.",
+  "languages": ["Python", "C", "C++", "Javascript", "SQL", "Java", "NodeJS", "Swift"],
+  "software": ["Altium", "Cadence", "LTspice", "Git", "SolidWorks", "AutoCAD", "MATLAB", "Simulink", "Quartus", "ModelSim", "AWS", "Excel"],
+  "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
+  "projects": [
+    {
+      "title": "3 Degree of Freedom Robot",
+      "subtitle": "Controls",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "Dynamic Parking Sign",
+      "subtitle": "Software, Firmware",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "iOS Application",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "Simple RISC Machine",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "Computer Vision Algorithm",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "RC4 Decryption Hardware",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "VGA output hardware",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "Dynamic Parking Sign",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "title": "iOS Application",
+      "image": "",
+      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    }
+  ]
+}
