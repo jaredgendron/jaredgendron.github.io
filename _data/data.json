@@ -19,7 +19,7 @@
       "subtitle": "Software, Firmware",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+      "description": "Collaborated in a 5 person team to design a parking sign with a digital display that can be dynamically changed to display any parking image desired. The parking sign's display is able to be updated through an hourly schedule or by sensor"
     },
     {
       "title": "iOS Application",
@@ -60,6 +60,12 @@
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Developer/Firmware & Hardware Design",
+      "intro": ""
     }
   ]
 }
