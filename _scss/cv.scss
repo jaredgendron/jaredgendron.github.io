@@ -1,0 +1,27 @@
+// @import '_variables';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.pdf-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  object {
+    margin-top: 8rem;
+    width: 75%;
+    height: 100%;
+    border: none;
+    @media only screen and (max-width: $small-width) {
+      width: 100%;
+    }
+  }
+}
+
+footer {
+  display: none;
+}

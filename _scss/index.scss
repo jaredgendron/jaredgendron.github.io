@@ -1,0 +1,244 @@
+// @import '_variables';
+
+section {
+  padding: 2rem 10rem;
+  //min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+
+  h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  @media only screen and (max-width: $small-width) {
+    padding: 1rem 2rem;
+  }
+}
+
+.quote {
+  background-color: $secondary-color;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #fff;
+
+  h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+  .gradient1 {
+    background-image: linear-gradient(to right, white, grey);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradient2 {
+    @extend .gradient1;
+    background-image: linear-gradient(to right, pink, #b0b43c);
+  }
+}
+
+#about {
+  padding-inline: 8rem;
+  @media only screen and (max-width: $small-width) {
+    padding: 1rem 2rem;
+  }
+}
+
+#skills {
+  padding-inline: 3rem;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media only screen and (max-width: $small-width) {
+    padding-inline: 0.5rem;
+    flex-direction: column;
+  }
+  .container {
+    flex: 1;
+    h2 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .bubbles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .bubble {
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+#portfolio {
+  padding: 1rem;
+  padding-bottom: 5rem;
+
+  h2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-inline: 7rem;
+    @media only screen and (max-width: $small-width) {
+      padding-inline: 2rem;
+    }
+  }
+
+  .carousel {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    @media only screen and (max-width: $small-width) {
+      height: 800px;
+    }
+
+    .carousel-slides {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .carousel-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+
+        @media only screen and (max-width: $small-width) {
+          flex-direction: column;
+          flex-shrink: 0;
+          flex-grow: 1;
+        }
+
+        &.active {
+          opacity: 1;
+        }
+
+        .carousel-container {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-items: center;
+          width: 100%;
+          height: 100%;
+          padding: 1rem;
+
+          img {
+            height: 100%;
+            object-fit: contain;
+          }
+
+          .button {
+            display: inline-block;
+            background-color: $header-color;
+            border: 1px solid $footer-color;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            width: 11rem;
+            padding: 10px 20px;
+            margin: 10px;
+            margin-top: auto;
+          }
+        }
+      }
+    }
+
+    .pagination {
+      display: flex;
+      margin-top: 1rem;
+
+      .page-btn {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ccc;
+        margin-right: 0.5rem;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: background-color 0.3s ease-in-out;
+      
+        &:hover,
+        &.active {
+          background-color: grey;
+        }
+      }
+      
+    }
+  }
+}
+
+#contact {
+  list-style: none;
+  background-color: black;
+  color: white;
+  min-height: none;
+  
+  .quote {
+    height: 20rem;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: $link-hover;
+      }
+
+      img {
+        width: 2.5rem;
+      }
+    }
+  }
+}
