@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Mark Pro, sans-serif;
   font-size: 16px;
@@ -19,7 +23,7 @@ header {
   color: $primary-color;
   border-radius: 0.5rem;
   border-style: solid;
-  border-color: $footer-color;
+  border-color: $header-color;
   border-width: 0.005rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -117,6 +121,10 @@ header {
   //     }
   //   }
   // }
+}
+
+.scroll-header{
+  border-color: $footer-color;
 }
 
 footer {

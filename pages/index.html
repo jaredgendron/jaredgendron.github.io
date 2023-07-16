@@ -15,26 +15,20 @@ layout: layout
   <section id="skills">
     <div class="container">
       <h2>Strengths</h2>
-      <div class="bubbles">
-        {% for strength in site.data.data.strengths %}
-        <div class="bubble">{{ strength }}</div>
-        {% endfor %}
+      <div class="bubbles">{% for strength in site.data.data.strengths %}
+        <div class="bubble">{{ strength }}</div>{% endfor %}
       </div>
     </div>
     <div class="container">
       <h2>Software</h2>
-      <div class="bubbles">
-        {% for software in site.data.data.software %}
-        <div class="bubble">{{ software }}</div>
-        {% endfor %}
+      <div class="bubbles">{% for software in site.data.data.software %}
+        <div class="bubble">{{ software }}</div>{% endfor %}
       </div>
     </div>
     <div class="container">
       <h2>Languages</h2>
-      <div class="bubbles">
-        {% for language in site.data.data.languages %}
-        <div class="bubble">{{ language }}</div>
-        {% endfor %}
+      <div class="bubbles">{% for language in site.data.data.languages %}
+        <div class="bubble">{{ language }}</div>{% endfor %}
       </div>
     </div>
   </section>
@@ -148,7 +142,7 @@ layout: layout
   </section>
   <section id="contact">
     <div class="quote">
-      <h1>Let's get in  <span class="gradient2">touch.</span></h1>
+      <h1>Let's get in  <span class="gradient1">touch.</span></h1>
       <p>Here are several other places to connect with me</p>
       <ul>
         <li><a href="https://ca.linkedin.com/in/jared-gendron-1b94771a3"><img src="assets/images/linkedin.png"></a></li>
