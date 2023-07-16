@@ -4,6 +4,7 @@ layout: layout
 ---
 
 <main>
+
   <section class="quote">
     <h1>Welcome to my <span class="gradient1">portfolio.</span></h1>
     <p>This is my personal webpage to showcase my skills and some of my projects</p>
@@ -12,134 +13,62 @@ layout: layout
     <h2>About Me</h2>
     <p>{{ site.data.data.bio}}</p>
   </section>
+
   <section id="skills">
     <div class="container">
       <h2>Strengths</h2>
-      <div class="bubbles">{% for strength in site.data.data.strengths %}
-        <div class="bubble">{{ strength }}</div>{% endfor %}
+      <div class="bubbles">
+        {% for strength in site.data.data.strengths %}
+        <div class="bubble">{{ strength }}</div>
+        {% endfor %}
       </div>
     </div>
     <div class="container">
       <h2>Software</h2>
-      <div class="bubbles">{% for software in site.data.data.software %}
-        <div class="bubble">{{ software }}</div>{% endfor %}
+      <div class="bubbles">
+        {% for software in site.data.data.software %}
+        <div class="bubble">{{ software }}</div>
+        {% endfor %}
       </div>
     </div>
     <div class="container">
       <h2>Languages</h2>
-      <div class="bubbles">{% for language in site.data.data.languages %}
-        <div class="bubble">{{ language }}</div>{% endfor %}
+      <div class="bubbles">
+        {% for language in site.data.data.languages %}
+        <div class="bubble">{{ language }}</div>
+        {% endfor %}
       </div>
     </div>
   </section>
+
   <section id="portfolio">
     <h2>Projects</h2>
     <div class="carousel">
       <div class="carousel-slides">
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>3 Degree of Freedom Robot</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
+        {% for project in site.data.data.projects %}
+          <div class="carousel-slide">
+              <div class="carousel-container">
+                <img src="{{ project.image }}" alt="{{ project.title }}">
+              </div>
+              <div class="carousel-container">
+                <h1>{{ project.title }}</h1>
+                <p>{{ project.description }}</p>
+                <div class="button">
+                  <p>See all projects</p>
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>Dynamic Parking Sign</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>iOS Application</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>Simple RISC Machine</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>Computer Vision Algorithm</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>RC4 Decryption Hardware</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>VGA output hardware</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>Dynamic Parking Sign</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide"> 
-          <div class="carousel-container"><img src=""></div>
-          <div class="carousel-container">
-            <h1>iOS Application</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.</p>
-            <div class="button">
-              <p>See all projects</p>
-            </div>
-          </div>
-        </div>
-      </div><br>
+        {% endfor %}
+      </div>
+      <br>
       <div class="pagination">
-        <button class="page-btn" data-slide="1"></button>
-        <button class="page-btn" data-slide="2"></button>
-        <button class="page-btn" data-slide="3"></button>
-        <button class="page-btn" data-slide="4"></button>
-        <button class="page-btn" data-slide="5"></button>
-        <button class="page-btn" data-slide="6"></button>
-        <button class="page-btn" data-slide="7"></button>
-        <button class="page-btn" data-slide="8"></button>
-        <button class="page-btn" data-slide="9"></button>
+        {% for project in site.data.data.projects %}
+          <button class="page-btn" data-slide="{{ forloop.index }}"></button>
+        {% endfor %}
       </div>
     </div>
   </section>
+  
   <section id="contact">
     <div class="quote">
       <h1>Let's get in  <span class="gradient1">touch.</span></h1>
@@ -151,6 +80,7 @@ layout: layout
       </ul>
     </div>
   </section>
+
 </main>
 
 <script src="assets/js/carousel.js" type="text/javascript"></script>
