@@ -8,21 +8,27 @@
   "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
   "projects": [
     {
-      "title": "3 Degree of Freedom Robot",
-      "subtitle": "Controls",
+      "title": "Robotic Arm with 3.5 Degrees of Freedom",
+      "subtitle": "Controls, Firmware, PCB design",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+      "description": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports"
     },
     {
       "title": "Dynamic Parking Sign",
-      "subtitle": "Software, Firmware",
+      "subtitle": "Software, Firmware, Hardware",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Collaborated in a 5 person team to design a parking sign with a digital display that can be dynamically changed to display any parking image desired. The parking sign's display is able to be updated through an hourly schedule or by sensor"
     },
     {
-      "title": "iOS Application",
+      "title": "ATM Integrated Chip Design",
+      "image": "",
+      "intro": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level",
+      "description": "Demonstrated very large scale integration (VLSI) techniques by designing the finite-state machine of an automated teller machine and designing an integrated chip using software tools such as Cadence Virtuoso"
+    },
+    {
+      "title": "A Puzzle Game for iOS",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
@@ -48,24 +54,14 @@
       "title": "VGA output hardware",
       "image": "",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
-    },
-    {
-      "title": "Dynamic Parking Sign",
-      "image": "",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
-    },
-    {
-      "title": "iOS Application",
-      "image": "",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     }
   ],
   "experience": [
     {
       "title": "Software Developer/Firmware & Hardware Design",
-      "intro": ""
+      "company": "UBC Parking and Access Services",
+      "intro": "Took on management, coordination, and design leads for the Dynamic Parking Signage project",
+      "description": "Vastly improved the web application to handle future scalability. Improved SQLite database structure to hold more information about devices, schedules, and images. Designed a framework for uploading images to devices and storing them within memory"
     }
   ]
 }
