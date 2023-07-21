@@ -8,22 +8,22 @@
   "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
   "projects": [
     {
-      "title": "Robotic Arm with 3.5 Degrees of Freedom",
+      "title": "3.5 DoF Robotic Arm",
       "subtitle": "Controls, Firmware, PCB design",
-      "image": "",
+      "image": "assets/images/robot.png",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports"
     },
     {
-      "title": "Dynamic Parking Sign",
+      "title": "Digital IoT Parking Sign",
       "subtitle": "Software, Firmware, Hardware",
-      "image": "",
+      "image": "assets/images/sign.png",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Collaborated in a 5 person team to design a parking sign with a digital display that can be dynamically changed to display any parking image desired. The parking sign's display is able to be updated through an hourly schedule or by sensor"
     },
     {
       "title": "ATM Integrated Chip Design",
-      "image": "",
+      "image": "assets/images/IC.png",
       "intro": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level",
       "description": "Demonstrated very large scale integration (VLSI) techniques by designing the finite-state machine of an automated teller machine and designing an integrated chip using software tools such as Cadence Virtuoso"
     },
