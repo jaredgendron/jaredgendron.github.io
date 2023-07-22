@@ -1,11 +1,10 @@
 // @import '_variables';
 
 section {
-  padding: 2rem 10rem;
-  //min-height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center items vertically */
+  padding: 2rem 10rem;
 
   @media only screen and (max-width: $small-width) {
     padding: 1rem 2rem;
@@ -17,6 +16,11 @@ section {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+}
+
+#banner {
+  background-color: black;
+  height: 25rem;
 }
 
 .quote {
