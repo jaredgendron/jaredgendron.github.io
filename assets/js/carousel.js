@@ -39,15 +39,15 @@ function nextSlide() {
 // Start the automatic slideshow
 timer = setInterval(nextSlide, 3000);
 
-// Pause the automatic slideshow on mouseover
-carousel.addEventListener('mouseover', () => {
-  clearInterval(timer);
-});
+// // Pause the automatic slideshow on mouseover
+// carousel.addEventListener('mouseover', () => {
+//   clearInterval(timer);
+// });
 
-// Resume the automatic slideshow on mouseout
-carousel.addEventListener('mouseout', () => {
-  timer = setInterval(nextSlide, 3000);
-});
+// // Resume the automatic slideshow on mouseout
+// carousel.addEventListener('mouseout', () => {
+//   timer = setInterval(nextSlide, 3000);
+// });
 
 // Show the first slide
 showSlide(currentSlide);

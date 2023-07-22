@@ -28,7 +28,7 @@
       "description": "Demonstrated very large scale integration (VLSI) techniques by designing the finite-state machine of an automated teller machine and designing an integrated chip using software tools such as Cadence Virtuoso"
     },
     {
-      "title": "A Puzzle Game for iOS",
+      "title": "Puzzle Game for iOS",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
@@ -48,11 +48,6 @@
       "title": "RC4 Decryption Hardware",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
-    },
-    {
-      "title": "VGA output hardware",
-      "image": "",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     }
   ],
