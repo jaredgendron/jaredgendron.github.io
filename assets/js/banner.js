@@ -20,4 +20,4 @@ function changeText() {
 }
 
 // Execute the changeText() function after 3 seconds (3000 milliseconds) of page load
-setTimeout(changeText, 3000);
+setTimeout(changeText, 1000);

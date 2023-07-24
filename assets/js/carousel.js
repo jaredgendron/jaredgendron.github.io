@@ -2,6 +2,7 @@ const carousel = document.querySelector('.carousel');
 const slides = carousel.querySelectorAll('.carousel-slide');
 const pagination = carousel.querySelector('.pagination');
 const pageButtons = pagination.querySelectorAll('.page-btn');
+const pageContainer = document.querySelector('.page-container');
 
 let currentSlide = 0;
 let timer = null;
@@ -39,15 +40,15 @@ function nextSlide() {
 // Start the automatic slideshow
 timer = setInterval(nextSlide, 3000);
 
-// // Pause the automatic slideshow on mouseover
-// carousel.addEventListener('mouseover', () => {
-//   clearInterval(timer);
-// });
+// Pause the automatic slideshow on mouseover
+pageContainer.addEventListener('mouseover', () => {
+  clearInterval(timer);
+});
 
-// // Resume the automatic slideshow on mouseout
-// carousel.addEventListener('mouseout', () => {
-//   timer = setInterval(nextSlide, 3000);
-// });
+// Resume the automatic slideshow on mouseout
+pageContainer.addEventListener('mouseout', () => {
+  timer = setInterval(nextSlide, 3000);
+});
 
 // Show the first slide
 showSlide(currentSlide);

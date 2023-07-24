@@ -60,6 +60,7 @@ header {
       }
   
       img {
+        display: none;
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
@@ -127,6 +128,14 @@ header {
   border: none;
   border-color: $footer-color;
   border-radius: 0.5rem;
+
+  .header-content {
+    .profile {
+      img {
+        display: block;
+      }
+    }
+  }
 }
 
 footer {

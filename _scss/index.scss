@@ -20,16 +20,23 @@ section {
 
 #banner {
   background-color: black;
-  height: 25rem;
 
   .container {
     display: flex;
     flex-direction: row;
 
+    @media only screen and (max-width: $small-width) {
+      flex-direction: column;
+    }
+
     .container-item {
       display: flex;
       margin: 1rem;
       align-content: center; /* Center items vertically */
+
+      @media only screen and (max-width: $small-width) {
+        justify-content: center;
+      }
 
       img {
         justify-self: center;
@@ -40,6 +47,10 @@ section {
         border-style: solid;
         border-color: $footer-color;
         border-width: 0.07rem;
+
+        @media only screen and (max-width: $small-width) {
+          margin-top: 3rem;
+        }
       }
     }
   }
@@ -56,8 +67,9 @@ section {
   align-items: left;
   color: #fff;
 
-  h1, p {
-    transition: opacity 1s; /* Add a CSS transition for opacity */
+  @media only screen and (max-width: $small-width) {
+    height: 100%;
+    margin-bottom: 2rem;
   }
 
   h1 {
@@ -68,6 +80,14 @@ section {
   p {
     font-size: 1.5rem;
     text-align: left;
+  }
+
+  h1, p {
+    transition: opacity 1s; /* Add a CSS transition for opacity */
+    
+    @media only screen and (max-width: $small-width) {
+      text-align: center;
+    }
   }
   
   .gradient1 {
