@@ -56,22 +56,26 @@ layout: layout
     <div class="carousel">
       <div class="carousel-slides">
         {% for project in site.data.data.projects %}
+        {% if project.featured %}
         <div class="carousel-slide">
           <div class="carousel-container">
             <img src="{{ project.image }}"  alt="{{ project.title }}">
             <div class="overlay-text">
-                <h2>Projects</h2>
+                <h2>Featured Projects</h2>
                 <br>
                 <h1>{{ project.title }}</h1>
                 <p>{{ project.description }}</p>
               </div>
           </div>
         </div>
+        {% endif %}
         {% endfor %}
         <div class="page-container">
           <div class="pagination">
             {% for project in site.data.data.projects %}
+            {% if project.featured %}
               <button class="page-btn" data-slide="{{ forloop.index }}"></button>
+            {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -82,17 +86,20 @@ layout: layout
   <section id="contact">
     <div class="quote">
       <h1><span class="gradient2">Let</span>'s get in touch.</h1>
-      <p>Here are several other places to connect with me</p>
-      <div>
+      <!-- <p>Here are several other places to connect with me</p> -->
+      <div class="links">
         <a class="btn" href="https://ca.linkedin.com/in/jared-gendron-1b94771a3">
           <i class="fab fa-linkedin"></i>
         </a>
+        <p>LinkedIn</p>
         <a class="btn" href="https://github.com/jaredgendron">
             <i class="fab fa-github"></i>
         </a>
+        <p>Github</p>
         <a class="btn" href="https://twitter.com/jared_gendron">
             <i class="fab fa-twitter"></i>
         </a>
+        <p>Twitter</p>
       </div>
     </div>
   </section>

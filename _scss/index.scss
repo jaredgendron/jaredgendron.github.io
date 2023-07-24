@@ -11,7 +11,7 @@ section {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -22,8 +22,11 @@ section {
   background-color: black;
 
   .container {
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     @media only screen and (max-width: $small-width) {
       flex-direction: column;
@@ -41,8 +44,8 @@ section {
       img {
         justify-self: center;
         align-self: center;
-        width: 15rem;
-        height: 15rem;
+        width: 12rem;
+        height: 12rem;
         border-radius: 50%;
         border-style: solid;
         border-color: $footer-color;
@@ -58,7 +61,6 @@ section {
 
 .quote {
   background-color: $secondary-color;
-  height: 400px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -73,12 +75,12 @@ section {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     text-align: left;
   }
   
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: left;
   }
 
@@ -99,7 +101,7 @@ section {
   
   .gradient2 {
     @extend .gradient1;
-    background-image: linear-gradient(to right, rgb(40, 39, 39), white);
+    background-image: linear-gradient(to right, rgb(224, 221, 221), black);
   }
 }
 
@@ -125,7 +127,7 @@ section {
     h2 {
       text-align: center;
       margin-top: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .bubbles {
       display: flex;
@@ -137,7 +139,7 @@ section {
         border-radius: 20px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         color: #000;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
         padding: 10px 20px;
         margin: 10px;
@@ -148,7 +150,7 @@ section {
 
 #portfolio {
   padding: 0rem;
-  height: 580px;
+  height: 27.5rem;
 
   @media only screen and (max-width: $small-width) {
     height: 800px;
@@ -214,7 +216,7 @@ section {
             transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
             background-color: rgba(255, 255, 255, 0.7); /* Optional: add a semi-transparent background */
             padding: 1rem 8rem; /* Optional: add some padding to the text */
-            font-size: 18px; /* Optional: adjust the font size and other text styles */
+            font-size: 16px; /* Optional: adjust the font size and other text styles */
 
             @media only screen and (max-width: $small-width) {
               padding: 1rem 2rem;
@@ -282,12 +284,29 @@ section {
 
 #contact {
   list-style: none;
-  background-color: black;
+  background-color: #f2f2f2;
   color: white;
   min-height: none;
-  
-  .quote {
-    height: 18rem;
+
+  .quote{
+    background-color: #f2f2f2;
+    color: black;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p{
+      text-align: center;
+      text-justify: center;
+      margin-right: 1rem;
+    }
   }
 
   .btn {

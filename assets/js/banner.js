@@ -8,10 +8,8 @@ function changeText() {
 
   // After a short delay (e.g., 100 milliseconds), change the text and fade in
   setTimeout(function() {
-    var newText = "Jared <span class='gradient1'>Gendron</span>";
-
-    headingElement.innerHTML = newText;
-    paragraphElement.textContent = "Electrical Engineering Graduate, Vancouver BC";
+    headingElement.innerHTML = "Jared <span class='gradient1'>Gendron</span>";
+    paragraphElement.innerHTML = "<b>Electrical Engineering Graduate</b> from the <b>University of British Columbia</b>";
 
     // Fade in the elements by setting opacity to 1
     headingElement.style.opacity = 1;

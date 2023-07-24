@@ -8,6 +8,7 @@
   "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
   "projects": [
     {
+      "featured": true,
       "title": "3.5 DoF Robotic Arm",
       "subtitle": "Controls, Firmware, PCB design",
       "image": "assets/images/robot.png",
@@ -15,6 +16,7 @@
       "description": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports"
     },
     {
+      "featured": true,
       "title": "Digital IoT Parking Sign",
       "subtitle": "Software, Firmware, Hardware",
       "image": "assets/images/sign.png",
@@ -22,29 +24,34 @@
       "description": "Collaborated in a 5 person team to design a parking sign with a digital display that can be dynamically changed to display any parking image desired. The parking sign's display is able to be updated through an hourly schedule or by sensor"
     },
     {
+      "featured": true,
       "title": "ATM Integrated Chip Design",
       "image": "assets/images/IC.png",
       "intro": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level",
       "description": "Demonstrated very large scale integration (VLSI) techniques by designing the finite-state machine of an automated teller machine and designing an integrated chip using software tools such as Cadence Virtuoso"
     },
     {
+      "featured": true,
       "title": "Puzzle Game for iOS",
       "image": "assets/images/game.jpg",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     },
     {
+      "featured": false,
       "title": "Simple RISC Machine",
       "image": "",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     },
     {
+      "featured": false,
       "title": "Computer Vision Algorithm",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     },
     {
+      "featured": false,
       "title": "RC4 Decryption Hardware",
       "image": "",
       "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
