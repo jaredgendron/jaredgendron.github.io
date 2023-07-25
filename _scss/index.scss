@@ -294,12 +294,21 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0.2rem;
+
+    p{
+      padding: 0.4rem;
+    }
 
     .info {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
+
+      @media only screen and (max-width: $small-width) {
+        flex-direction: column;
+      }
 
       &.container{
         display: flex;
