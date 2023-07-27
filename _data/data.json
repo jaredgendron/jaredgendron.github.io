@@ -12,57 +12,65 @@
       "title": "3.5 DoF Robotic Arm",
       "subtitle": "Controls, Firmware, PCB design",
       "image": "assets/images/robot.png",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports"
+      "summary": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports",
+      "description": "In this project, I was responsible for designing the complete control system of a robot featuring 3.5 degrees of freedom. To achieve precise and efficient control, I developed and fine-tuned a PID controller in C, efficiently utilizing a microcontroller's main running program and interrupt service routines.\r\nTo optimize the controller for minimal processing time, I conducted real-time simulations using a combination of MATLAB and SimulationX software simulataneously. This allowed me to fine-tune the system parameters and ensure optimal performance ahead of real-time testing.\r\nTo demonstrate my circuit design skills, I created a printed circuit board to drive current to the motors, minimizing the robot's overall footprint. Moreover, I implemented an algorithm that autonomously operated one motor based on the positions of the other two, drastically reducing path planning time and enhancing the robot's autonomous capabilities."
     },
     {
       "featured": true,
       "title": "Digital IoT Parking Sign",
       "subtitle": "Software, Firmware, Hardware",
       "image": "assets/images/sign.png",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Collaborated in a 5 person team to design a parking sign with a digital display that can be dynamically changed to display any parking image desired. The parking sign's display is able to be updated through an hourly schedule or by sensor"
+      "summary": "The main point of the project was to create an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates on an hourly schedule or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application.",
+      "description": "Collaborated closely with a client to successfully conceptualize, design, and develop an innovative digital parking sign that dynamically adjusts its display based on real-time data. The parking sign's display can be updated through an hourly schedule or by feedback from sensors, providing utmost flexibility and adaptability.\r\nDemonstrated leadership by overseeing the entire project lifecycle, from requirements gathering and system architecture design to prototype development, thorough testing, and final deployment. Throughout the process, the focus remained on ensuring the sign's capability to receive updates on an hourly basis or respond to sensor feedback, enhancing its effectiveness in serving users.\r\nDeveloped a robust web application from inception, showcasing expertise in engineering and wireless technologies to establish a seamless and secure wireless connection between the digital parking sign and the application. The wireless connectivity ensures swift communication between the sign and the application, enabling timely updates based on scheduled intervals or sensor-driven data.\r\nEmployed AWS for efficient hosting, management, and integration, while implementing MQTT protocol over an LTE connection for reliable device communication. This strategic use of technology allowed the digital parking sign to stay constantly connected, receiving updates regularly through the scheduled hourly intervals or in response to sensor input, thus optimizing its functionality."
     },
     {
       "featured": true,
       "title": "ATM Integrated Chip Design",
       "image": "assets/images/IC.png",
-      "intro": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level",
+      "summary": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level",
       "description": "Demonstrated very large scale integration (VLSI) techniques by designing the finite-state machine of an automated teller machine and designing an integrated chip using software tools such as Cadence Virtuoso"
     },
     {
       "featured": true,
-      "title": "Puzzle Game for iOS",
+      "title": "Puzzle Game iOS Application",
       "image": "assets/images/game.jpg",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+      "summary": "The main point of the project was to design and develop an iOS puzzle game from scratch. The game incorporated a proprietary algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application.",
+      "description": "As a two-person team, we collaborated closely to design and develop an iOS puzzle game from scratch, while also focusing on understanding the underlying business aspects of the application. From the beginning of the design process, we incorporated elements to enhance the app's revenue potential and user experience.\r\nTo ensure a captivating and constantly evolving gaming experience, we created an algorithm that generated an endless number of unique and solvable puzzles automatically. This algorithm would not only delight players with fresh challenges but also save man-hours that would have otherwise been required for manual level design.\r\nUnderstanding the significance of generating revenue, we strategically integrated micro-transactions within the game, allowing users to purchase new levels or additional in-game content, thereby enhancing user engagement and monetization opportunities. Additionally, we proactively considered the inclusion of advertisements at appropriate intervals to strike a balance between ensuring a seamless user experience and creating opportunities for ad revenue.\r\nThroughout the project, our focus on both technical innovation and understanding the business behind the application allowed us to deliver a well-designed iOS game. This approach not only catered to gameplay but also laid the foundation for potential revenue growth through micro-transactions and advertisements, increasing the probability of its success and making it a profitable venture."
     },
     {
       "featured": false,
       "title": "Simple RISC Machine",
       "image": "",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+      "summary": "I designed and implemented a simple Reduced Instruction Set Computer (RISC) using Verilog. The RISC machine was capable of executing a limited set of ARMv7 instructions, which were stored in flash memory. I created essential Verilog modules, including an arithmetic logic unit (ALU), CPU, and state machine controller, interconnecting them with data paths for smooth instruction execution. The successful development of the RISC machine on a De1-SoC FPGA demonstrated my expertise in digital design, Verilog programming, and computer architecture, showcasing my ability to create functional and efficient hardware systems.",
+      "description": "In this project, I undertook the design and implementation of a simple Reduced Instruction Set Computer (RISC) using Verilog. The RISC machine was capable of executing a limited set of ARMv7 instructions, which were stored in flash memory. The final design was programmed onto a De1-SoC FPGA, allowing for hardware-based execution of the instructions.\r\nTo achieve this, I created various Verilog modules, including an arithmetic logic unit (ALU), a CPU, and a state machine controller. These modules were interconnected with data paths to enable the seamless execution of instruction codes.\r\nBy combining my knowledge of digital design and Verilog programming, I successfully developed a functional RISC machine capable of executing a subset of ARMv7 instructions, providing valuable hands-on experience in hardware design and computer architecture. The project showcased my proficiency in Verilog and FPGA programming and demonstrated the ability to design and implement digital systems for real-world applications."
     },
     {
       "featured": false,
       "title": "Computer Vision Algorithm",
       "image": "",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
     },
     {
       "featured": false,
       "title": "RC4 Decryption Hardware",
       "image": "",
-      "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur."
+    },
+    {
+      "featured": false,
+      "title": "Reflow Oven Controller with Advanced User Interface and Safety Features",
+      "image": "",
+      "summary": "The main point of this project was to design, build, and program a Reflow Oven Controller from scratch using a microcontroller/processor other than the AT89LP51RC2 or any other member of the same series. The controller was programmed in assembly language and incorporated a user-friendly interface with selectable reflow profile parameters. It featured precise temperature measurement capabilities using a K-type thermocouple and operated a standard 1500W toaster oven using a solid-state relay (SSR) to regulate power delivery. The controller also utilized Pulse Coded Modulation (PCM) and a Digital to Analog Converter (DAC) for audio feedback and communication with a personal computer for temperature data plotting. Safety features, including automatic cycle termination, were implemented to ensure safe and efficient reflow processes.",
+      "description": "In this completed project, I designed, built, programmed, and thoroughly tested a sophisticated Reflow Oven Controller. The controller was programmed in assembly language, providing precise control over the reflow process. It included a user-friendly interface that allowed users to select reflow profile parameters, such as soak temperature, soak time, reflow temperature, and reflow time, through easily accessible pushbuttons. \r\nTo ensure accurate temperature measurements, the controller utilized a K-type thermocouple with cold junction compensation, capable of measuring temperatures between 25°C and 240°C. A solid-state relay (SSR) was incorporated to regulate the power delivered by the standard 1500W toaster oven, and Pulse Width Modulation (PWM) was implemented for efficient control over the SSR.\r\nThe Reflow Oven Controller featured an LCD display to showcase temperature readings, running time, and the current state of the reflow process. To enhance the user interface, the controller 'talked' using Pulse Coded Modulation (PCM) and a Digital to Analog Converter (DAC). This allowed the system to playback the current oven temperature every 5 seconds and provide reflow process updates in English.\r\nThe safety of the system was paramount, and an automatic cycle termination mechanism was implemented. If the reflow process was initiated without the thermocouple wire inside the oven, the controller promptly aborted the process within the first 60 seconds of operation to prevent any potential hazards.\r\nAdditionally, the Reflow Oven Controller communicated with a personal computer through the serial port, providing real-time temperature data for plotting temperature strip charts. To verify the accuracy of the temperature measurements, I conducted temperature validation using lab multimeters, ensuring the controller's maximum acceptable temperature error of ±3°C for the range 25°C to 240°C.\r\nIn addition to the Reflow Oven Controller, I assembled several EFM8 boards, leveraging the project's soldering expertise. These boards were crucial for various labs and served as an essential component for the second project in the course.\r\nThe successful completion of this project demonstrated my technical proficiency in microcontroller programming, circuit design, and control systems, along with my ability to create a highly functional and user-friendly reflow oven controller. The inclusion of advanced features, safety measures, and data validation ensured a reliable and efficient reflow process, making it a valuable addition to electronic assembly projects."
     }
   ],
   "experience": [
     {
       "title": "Software Developer/Firmware & Hardware Design",
       "company": "UBC Parking and Access Services",
-      "intro": "Took on management, coordination, and design leads for the Dynamic Parking Signage project",
+      "summary": "Took on management, coordination, and design leads for the Dynamic Parking Signage project",
       "description": "Vastly improved the web application to handle future scalability. Improved SQLite database structure to hold more information about devices, schedules, and images. Designed a framework for uploading images to devices and storing them within memory"
     }
   ]
