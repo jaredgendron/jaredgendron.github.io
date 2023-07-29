@@ -1,8 +1,32 @@
-// Change background header
-function scrollHeader(){
-  const header = document.getElementById('header')
-  // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
-  if(this.scrollY >= 250) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
-}
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
 
-window.addEventListener('scroll', scrollHeader)
+$(window).scroll(function(event){
+  didScroll = true;
+});
+
+setInterval(function() {
+  if (didScroll) {
+    hasScrolled();
+    didScroll = false;
+  }
+}, 250);
+
+function hasScrolled() {
+  var st = $(this).scrollTop();
+  
+  if(Math.abs(lastScrollTop - st) <= delta)
+    return;
+  
+  if (st > lastScrollTop && st > navbarHeight){
+    $('header').addClass('hidden');
+  } else {
+    if(st + $(window).height() < $(document).height()) {
+      $('header').removeClass('hidden');
+    }
+  }
+  
+  lastScrollTop = st;
+}

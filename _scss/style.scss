@@ -14,12 +14,13 @@ body {
   font-family: Mark Pro, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  background-color: black;
   color: #333;
+  padding-top: $header-height;
 }
 
 header {
   background-color: $header-color;
-  backdrop-filter: blur(5px);
   color: $primary-color;
   border-style: none;
   border-color: $header-color;
@@ -28,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3rem;
+  height: $header-height;
   margin: 0;
   padding: 0 2rem;
   width: 100%;
@@ -38,7 +39,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;
-  transition: all 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
   
   .header-content {
     display: flex;
@@ -107,35 +108,11 @@ header {
       }
     }
   }
-  
-  // &:hover{
-  //   height: 10rem;
-  //   //padding: 0rem 1rem;
-  //   .header-content {
-  //     align-items: start;
-  //     .profile {
-  //       img {
-  //         width: 5rem;
-  //         height: 5rem;
-  //       }
-  //     }
-  //   }
-  // }
 }
 
-.scroll-header{
-  width: 90%;
-  border: none;
-  border-color: $footer-color;
-  border-radius: 0.5rem;
-
-  .header-content {
-    .profile {
-      img {
-        display: block;
-      }
-    }
-  }
+.hidden {
+  top: -$header-height;
+  box-shadow: none;
 }
 
 footer {
