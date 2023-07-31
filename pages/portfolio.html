@@ -11,7 +11,7 @@ layout: layout
         <nav>
           <ul>
             {% for project in site.data.data.projects %}
-            <li class="project-link" data-title="{{ project.title }}">
+            <li class="project-link" data-document="{{ project.document }}">
               {{ project.title }}
             </li>
             {% endfor %}
@@ -20,23 +20,14 @@ layout: layout
       </aside>
         
       <div class="content">
-        <h1 id="project-title">Project Title</h1>
-        <h2>Overview</h2>
-        <p id="project-summary">Project Summary</p>
-        <div class="image-container">
-          <img id="project-image" src="{{ project.image }}"  alt="{{ project.title }}">
-          <div class="overlay-text">
-          </div>
-        </div>
-        <h2>Details</h2>
-        <p id="project-description">Project Description</p>
+        <div id="markdown-container" class="markdown"></div>
       </div>
     </div>
   </div>
 </main>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/showdown@latest"></script>
 <script>
   const projects = {{ site.data.data.projects | jsonify }};
 </script>
-
-<script src="assets/js/expand.js" type="text/javascript"></script>
+<script src="assets/js/expand.js"></script>
