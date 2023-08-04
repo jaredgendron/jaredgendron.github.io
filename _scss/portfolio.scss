@@ -1,10 +1,83 @@
 .wrapper{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: white;
-  padding: 5rem;
 }
 
 .content {
   width: 70%;
+  padding: 5rem 10rem 5rem 0;
 }
+
+#sidebar {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: $sidebar-width;
+  background-color: white;
+  left: 3rem;
+  transition: top 0.2s ease-in-out;
+  
+  h2 {
+    margin: 0 0 1em 0;
+  }
+  
+  h3 {
+    background-color: #555;
+    color: white;
+    margin: 0;
+    padding: 0 20px;
+    font-weight: normal;
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 90%;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: $portfolio-background;
+    li {
+      padding: 20px;
+      color: #333;
+      background-color: white;
+      margin-bottom: 1px;
+      border-left: 10px solid transparent;
+      &.active {
+        border-color: #e35205;
+      }
+
+      cursor: pointer;
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}
+
+// @media all and (max-width: 1024px) {
+//   .sidebar.toggled {
+//     left: 0;
+//     z-index: 10;
+//     box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.8);
+//     + .content {
+//       overflow: hidden;
+//     }
+//   }
+//   .sidebar {
+//     left: -$sidebar-width;
+//   }
+//   .content {
+//     left: 0;
+//   }
+//   .toggle-menu {
+//     z-index: 1;
+//     opacity: 1;
+//   }
+//   .sidebar, .content {
+//     h1 {
+//       left: 40px;
+//     }
+//   }
+// }
