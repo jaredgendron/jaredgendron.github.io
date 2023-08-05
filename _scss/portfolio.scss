@@ -1,87 +1,60 @@
 .wrapper{
-  display: flex;
-  justify-content: flex-end;
   background-color: white;
-}
-
-.content {
-  margin-left: $sidebar-width+5rem;
-  width: 70%;
-  padding: 5rem;
-}
-
-.sidebar {
-  background-color: none;
-  position: fixed; /* Make the sidebar fixed */
-  top: $header-height; /* Stick the sidebar to the top of the viewport */
-  bottom: 0; /* Stretch the sidebar to the bottom of the viewport */
-  left: 5rem; /* Stick the sidebar to the left of the viewport */
-  width: $sidebar-width;
-  padding-top: 5rem;
-  overflow-y: auto; /* Enable scrolling if content overflows */
   
-  h2 {
-    margin: 0 0 1em 0;
+  .content {
+    margin-left: $sidebar-width+3rem;
+    width: 70%;
+    padding: 5rem;
   }
   
-  h3 {
-    background-color: #555;
-    border: 5px;
-    border-color: black;
-    color: white;
-    margin: 0;
-    padding: 0 20px;
-    font-weight: normal;
-    line-height: 2;
-    text-transform: uppercase;
-    font-size: 90%;
-  }
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: $portfolio-background;
-    li {
-      padding: 20px;
-      color: #333;
-      background-color: white;
-      margin-bottom: 1px;
-      border-left: 10px solid transparent;
-      &.active {
-        border-color: #e35205;
-      }
-
-      cursor: pointer;
-      &:hover {
-        background-color: #f2f2f2;
+  .sidebar {
+    position: fixed; /* Make the sidebar fixed */
+    top: $header-height; /* Stick the sidebar to the top of the viewport */
+    bottom: 0; /* Stretch the sidebar to the bottom of the viewport */
+    left: 3rem; /* Stick the sidebar to the left of the viewport */
+    width: $sidebar-width;
+    padding-top: 5rem;
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    transition: top 0.2s ease-in-out;
+    
+    h2 {
+      margin: 0 0 1em 0;
+    }
+    
+    h3 {
+      background-color: #767676;
+      color: white;
+      margin: 0;
+      padding: 0 20px;
+      font-weight: normal;
+      line-height: 2;
+      text-transform: uppercase;
+      font-size: 90%;
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      // background-color: $portfolio-background;
+      li {
+        padding: 10px;
+        color: #333;
+        background-color: white;
+        margin-top: 0.2rem;
+        border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
+  
+        cursor: pointer;
+        &:hover {
+          background-color: #f2f2f2;
+        }
       }
     }
   }
+  
+  @media all and (max-width: $small-width) {
+    .sidebar {
+      display: none;
+    }
+  }
 }
-
-// @media all and (max-width: 1024px) {
-//   .sidebar.toggled {
-//     left: 0;
-//     z-index: 10;
-//     box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.8);
-//     + .content {
-//       overflow: hidden;
-//     }
-//   }
-//   .sidebar {
-//     left: -$sidebar-width;
-//   }
-//   .content {
-//     left: 0;
-//   }
-//   .toggle-menu {
-//     z-index: 1;
-//     opacity: 1;
-//   }
-//   .sidebar, .content {
-//     h1 {
-//       left: 40px;
-//     }
-//   }
-// }

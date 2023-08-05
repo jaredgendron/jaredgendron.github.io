@@ -1,7 +1,12 @@
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('header').outerHeight();
+let didScroll;
+let lastScrollTop = 0;
+let delta = 5;
+let currentTop;
+const navbarHeight = $('header').outerHeight();
+
+if ($('#sidebar').length > 0) {
+  currentTop = $('#sidebar').offset().top;
+}
 
 $(window).scroll(function(event){
   didScroll = true;
@@ -15,18 +20,18 @@ setInterval(function() {
 }, 250);
 
 function hasScrolled() {
-  var st = $(this).scrollTop();
+  let st = $(this).scrollTop();
   
   if(Math.abs(lastScrollTop - st) <= delta)
     return;
   
   if (st > lastScrollTop && st > navbarHeight){
-    $('header').addClass('hidden');
-    $('sidebar').addClass('hidden');
+    $('header').css('top', -navbarHeight);
+    $('#sidebar').css('top', currentTop-navbarHeight);
   } else {
     if(st + $(window).height() < $(document).height()) {
-      $('header').removeClass('hidden');
-      $('sidebar').removeClass('hidden');
+      $('header').css('top', 0);
+      $('#sidebar').css('top', currentTop)
     }
   }
   
