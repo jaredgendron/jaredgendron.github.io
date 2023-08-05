@@ -5,18 +5,20 @@
 }
 
 .content {
+  margin-left: $sidebar-width+5rem;
   width: 70%;
-  padding: 5rem 10rem 5rem 0;
+  padding: 5rem;
 }
 
-#sidebar {
-  height: 40px;
-  position: fixed;
-  top: 0;
+.sidebar {
+  background-color: none;
+  position: fixed; /* Make the sidebar fixed */
+  top: $header-height; /* Stick the sidebar to the top of the viewport */
+  bottom: 0; /* Stretch the sidebar to the bottom of the viewport */
+  left: 5rem; /* Stick the sidebar to the left of the viewport */
   width: $sidebar-width;
-  background-color: white;
-  left: 3rem;
-  transition: top 0.2s ease-in-out;
+  padding-top: 5rem;
+  overflow-y: auto; /* Enable scrolling if content overflows */
   
   h2 {
     margin: 0 0 1em 0;
@@ -24,6 +26,8 @@
   
   h3 {
     background-color: #555;
+    border: 5px;
+    border-color: black;
     color: white;
     margin: 0;
     padding: 0 20px;
