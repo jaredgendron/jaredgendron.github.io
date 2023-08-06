@@ -1,3 +1,8 @@
+---
+layout: project
+title: RC4 Decryption Hardware
+permalink: /portfolio/RC4Decryption
+---
 
 # RC4 Decryption Hardware Written in Verilog for a FPGA
 

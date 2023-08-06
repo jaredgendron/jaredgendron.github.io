@@ -1,3 +1,9 @@
+---
+layout: project
+title: Reflow Oven Controller
+permalink: /portfolio/ReflowController
+---
+
 
 # Reflow Oven Controller with Advanced User Interface and Safety Features
 

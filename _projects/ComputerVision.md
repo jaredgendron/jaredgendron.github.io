@@ -1,3 +1,8 @@
+---
+layout: project
+title: Computer Vision Algorithm in Python
+permalink: /portfolio/ComputerVision
+---
 
 # Computer Vision Heuristic Algorithm written in Python to Determine Movement Direction from Drone Video Footage
 

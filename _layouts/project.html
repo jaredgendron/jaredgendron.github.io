@@ -7,9 +7,10 @@ layout: layout
     <h3>Projects</h3>
     <nav>
       <ul>
-        {% for project in site.data.data.projects %}
-        <li class="project-link" data-title="{{ project.title }}">
-          {{ project.title }}
+        {% assign projects = site.projects %}
+        {% for project in projects %}
+        <li class="project-link">
+          <a href="{{ project.permalink }}">{{ project.title }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -17,10 +18,7 @@ layout: layout
   </div>
   <div class="content">
     <div class="markdown-body">
-      {% capture markup %}
-        {{ content }}
-      {% endcapture %}
-      {{ markup | markdownify }}
+      {{ content }}
     </div>
   </div>
 </div>

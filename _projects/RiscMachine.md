@@ -1,3 +1,8 @@
+---
+layout: project
+title: Simple RISC Machine
+permalink: /portfolio/RiscMachine
+---
 
 # Simple Risc Machine Written in Verilog for a FPGA
 

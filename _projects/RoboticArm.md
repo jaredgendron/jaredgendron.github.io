@@ -1,3 +1,9 @@
+---
+layout: project
+title: Robotic Arm with 3.5 Degrees of Freedom
+permalink: /portfolio/RoboticArm
+---
+
 # Robotic Arm with 3.5 Degrees of Freedom
 
 ## Summary

@@ -1,3 +1,8 @@
+---
+layout: project
+title: ATM Integrated Chip Design
+permalink: /portfolio/ATMIC
+---
 
 # Automated Teller Machine Integrated Chip
 

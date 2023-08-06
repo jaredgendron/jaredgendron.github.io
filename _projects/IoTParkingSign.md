@@ -1,3 +1,8 @@
+---
+layout: project
+title: IoT Parking Sign
+permalink: /portfolio/IoTParkingSign
+---
 
 # Standalone IoT Digital Parking Sign
 

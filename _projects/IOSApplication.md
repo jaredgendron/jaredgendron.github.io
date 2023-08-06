@@ -1,3 +1,8 @@
+---
+layout: project
+title: IOS Puzzle Game Application
+permalink: /portfolio/IOSApplication
+---
 
 # Puzzle Game Application for IOS
 
