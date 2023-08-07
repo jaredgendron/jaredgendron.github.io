@@ -45,7 +45,8 @@ permalink: /
 
 <section id="about">
   <h2>About Me</h2>
-  <p>{{ site.data.data.bio}}</p>
+  {% capture markdown_content %}{% include bio.md %}{% endcapture %}
+  {{ markdown_content | markdownify }}
 </section>
 
 <section id="strengths">

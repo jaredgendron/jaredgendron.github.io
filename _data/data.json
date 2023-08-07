@@ -2,7 +2,6 @@
   "name": "Jared Gendron",
   "title": "Electrical Engineering Graduate",
   "location": "Vancouver, BC",
-  "bio": "My name is Jared Gendron and I'm an electrical engineer based in Vancouver, British Columbia. As a recent Electrical Engineering graduate from the University of British Columbia, I aim to leverage my knowledge to contribute highly to your organization. With a profound understanding of electrical systems, I possess strong analytical skills that aid in problem-solving. I seek to join a team of professionals in a dynamic work environment to enhance my skills and make a meaningful contribution to the company's growth.",
   "languages": ["C", "C++", "Assembly", "Verilog", "Python", "Javascript", "SQL", "Java", "Swift"],
   "software": ["Altium", "Cadence", "Git", "MATLAB", "Simulink", "SolidWorks", "AutoCAD", "LTspice", "Quartus", "ModelSim", "Jira", "Confluence", "Excel"],
   "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
@@ -10,17 +9,17 @@
     {
       "document": "RobotArm",
       "title": "3.5 DoF Robotic Arm",
-      "image": "assets/images/robot.png",
+      "image": "assets/images/RoboticArm/robot.png",
       "summary": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. Designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. Ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software simultaneously by sharing feedback variables through computer ports"
     },
     {
       "title": "Digital IoT Parking Sign",
-      "image": "assets/images/sign.png",
+      "image": "assets/images/IoTParkingSign/sign.png",
       "summary": "The main point of the project was to create an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates on an hourly schedule or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application."
     },
     {
       "title": "ATM Integrated Chip Design",
-      "image": "assets/images/IC.png",
+      "image": "assets/images/ATM-IC/IC.png",
       "summary": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level"
     },
     {

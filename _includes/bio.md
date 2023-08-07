@@ -1,0 +1,6 @@
+
+My name is Jared Gendron and I am an electrical engineering graduate from the University of British Columbia. In addition to the rigorous curriculum of electrical engineering at UBC, I undertook an intensive exploration of advanced courses immersing myself in the complexities of analog circuit design, VLSI systems, power electronics, digital system design, and system software engineering. 
+
+I have gained a comprehensive understanding of advanced chip architectures and my venture into power electronics provided me with the ability to proficiently manage and manipulate electrical power for optimized functionality. Simultaneously, I delved into microcomputer systems design, refining my capacity to engineer efficient and compact computing solutions. These endeavors were complemented by my study of system software engineering, which further enhanced my ability of developing robust and adaptable computer programs.
+
+The interconnection among these advanced courses has formed a comprehensive skill set for myself that I am excited to leverage within a team of industry professionals. My aim is to continually refine my expertise and to actively contribute to propelling your organization towards sustained growth.

@@ -8,9 +8,12 @@ permalink: /portfolio/IoTParkingSign
 
 `AWS` `LTE` `MQTT` `LoRaWAN` `NodeJS`
 
+
 ## Summary
 
 The main point of the project was to create an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates on an hourly schedule or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application.
+
+![Image](/assets/images/IoTParkingSign/sign.png)
 
 ## Description
 
