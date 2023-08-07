@@ -38,6 +38,11 @@
       padding: 0;
       margin: 0;
       // background-color: $portfolio-background;
+
+      a {
+        text-decoration: none;
+      }
+
       li {
         padding: 10px;
         color: #333;
