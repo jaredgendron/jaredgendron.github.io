@@ -29,6 +29,7 @@ section {
 
     .container-item {
       display: flex;
+      flex-direction: column;
       margin: 1rem;
       align-content: center; /* Center items vertically */
 
@@ -36,11 +37,60 @@ section {
         justify-content: center;
       }
 
+      .contact-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        margin: 1rem 0; 
+
+        @media only screen and (max-width: $small-width) {
+          justify-content: center;
+        }
+
+        .contact-bubble{
+          display: flex;
+          flex-direction: row; 
+          align-items: center; 
+          height: 2.5rem;
+          width: 9rem;
+          border: 1px solid white; 
+          border-radius: 5rem;
+          padding: 10px;
+          margin: 0.2rem;
+          text-decoration: none;
+          color: white;
+          transition: background-color 0.3s ease;
+
+          &:hover{
+            background-color: grey;
+          }
+
+          .icon {
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            margin: 0.1rem;
+            color: white;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            text-justify: center;
+          
+            i {
+              line-height: 50px;
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+      }
+
       img {
         justify-self: center;
         align-self: center;
-        width: 14rem;
-        height: 14rem;
+        width: 12rem;
+        height: 12rem;
         border-radius: 50%;
         border-style: solid;
         border-color: $footer-color;
@@ -281,71 +331,6 @@ section {
         }
       }
       
-    }
-  }
-}
-
-#contact {
-  display: flex;
-  flex-direction: row;
-  background-color: #f2f2f2;
-  color: #505050;
-  align-items: center;
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0.2rem;
-
-    p{
-      padding: 0.4rem;
-    }
-
-    .info {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-
-      @media only screen and (max-width: $small-width) {
-        flex-direction: column;
-      }
-
-      &.container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
-    }
-  }
-
-  .icon {
-    display: inline-block;
-    width: 3rem;
-    height: 3rem;
-    margin: 0.1rem;
-    color: #505050;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    text-justify: center;
-
-    i {
-      line-height: 50px;
-      font-size: 1.5rem;
-    }
-    
-    &.magnify{
-      i{
-        font-size: 2rem;
-        transition: 0.15s linear;
-        &:hover{
-          transform: scale(1.3);
-        }
-      }
     }
   }
 }

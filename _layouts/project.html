@@ -9,12 +9,14 @@ layout: layout
       <ul>
         {% assign projects = site.projects %}
         {% for project in projects %}
-        <li class="project-link">
-          <a href="{{ project.permalink }}">{{ project.title }}</a>
-        </li>
+          <a href="{{ project.permalink }}">
+            <li class="project-link">
+              {{ project.title }}
+            </li>
+          </a>
         {% endfor %}
       </ul>
-    </nav>
+    </nav>    
   </div>
   <div class="content">
     <div class="markdown-body">
