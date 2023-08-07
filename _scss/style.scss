@@ -57,7 +57,6 @@ header {
       }
   
       img {
-        display: none;
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
@@ -109,4 +108,12 @@ footer {
   padding: 0.8rem;
   font-size: 0.75rem;
   color: black;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  background-color: white;
+  min-height: 100vh;
 }
