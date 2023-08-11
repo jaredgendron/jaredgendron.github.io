@@ -2,10 +2,15 @@ let didScroll;
 let lastScrollTop = 0;
 let delta = 5;
 let currentTop;
+let sidebarOffset;
+let scrollPosition;
 const navbarHeight = $('header').outerHeight();
 
+
 if ($('#sidebar').length > 0) {
-  currentTop = $('#sidebar').offset().top;
+  sidebarOffset = $('#sidebar').offset().top;
+  scrollPosition = $(document).scrollTop();
+  currentTop = sidebarOffset - scrollPosition;
 }
 
 $(window).scroll(function(event){

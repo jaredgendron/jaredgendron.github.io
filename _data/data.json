@@ -19,7 +19,7 @@
     },
     {
       "title": "ATM Integrated Chip Design",
-      "image": "assets/images/ATM-IC/IC.png",
+      "image": "assets/images/ATMIC/IC.png",
       "summary": "Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level"
     },
     {

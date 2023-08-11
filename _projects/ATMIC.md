@@ -10,7 +10,7 @@ permalink: /portfolio/ATMIC
 
 Designed the finite-state machine for an ATM and designed an integrated chip at the transistor level
 
-![Current Driving PCB](/assets/images/ATM-IC/IC.png)
+![Current Driving PCB](/assets/images/ATMIC/IC.png)
 
 ## Description
 
