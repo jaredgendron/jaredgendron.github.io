@@ -6,26 +6,31 @@
     min-height: 100vh;
     width: 70%;
     padding: 5rem;
-
-    .markdown-body2{
-      a {
-        color: rgb(94, 94, 94);
-        text-decoration: none;
-        
-        li {
-          padding-inline: 1rem;
-          list-style: none;
-          border: 0.1rem solid rgb(130, 130, 130);
-          border-radius: 0.5rem;
-          margin-bottom: 0.2rem;
-          &:hover{
-            background-color: rgba(215, 215, 215, 0.451);
-          }
-        }
-      }
-    }
-
   }
+
+  .list {
+    @extend .content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    // .markdown-body{
+    //   a {
+    //     color: rgb(94, 94, 94);
+    //     text-decoration: none;
+        
+    //     li {
+    //       padding-inline: 1rem;
+    //       list-style: none;
+    //       border: 0.1rem solid rgb(130, 130, 130);
+    //       border-radius: 0.5rem;
+    //       margin-bottom: 0.2rem;
+    //       &:hover{
+    //         background-color: rgba(215, 215, 215, 0.451);
+    //       }
+    //     }
+    //   }
+    // }
   
   .sidebar {
     position: fixed; /* Make the sidebar fixed */
