@@ -4,6 +4,8 @@ title: IoT Parking Sign
 permalink: /portfolio/IoTParkingSign
 ---
 
+⚠️ The documentation for this project has been marked as unfinished, please come back soon
+
 # Standalone IoT Digital Parking Sign
 
 `AWS` `LTE` `MQTT` `LoRaWAN` `NodeJS` `PCB Design`

@@ -4,6 +4,8 @@ title: Robotic Arm with 3.5 Degrees of Freedom
 permalink: /portfolio/RoboticArm
 ---
 
+⚠️ The documentation for this project has been marked as unfinished, please come back soon
+
 # Robotic Arm with 3.5 Degrees of Freedom
 
 `Control` `MATLAB` `Simulink` `Microcontroller` 

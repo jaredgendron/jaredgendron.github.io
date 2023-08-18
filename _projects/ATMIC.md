@@ -4,6 +4,8 @@ title: ATM Integrated Chip Design
 permalink: /portfolio/ATMIC
 ---
 
+⚠️ The documentation for this project has been marked as unfinished, please come back soon
+
 # Automated Teller Machine Integrated Chip
 
 ## Summary

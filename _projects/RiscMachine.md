@@ -4,6 +4,8 @@ title: Simple RISC Machine
 permalink: /portfolio/RiscMachine
 ---
 
+⚠️ The documentation for this project has been marked as unfinished, please come back soon
+
 # Simple Risc Machine Written in Verilog for a FPGA
 
 ## Summary
