@@ -334,7 +334,55 @@ section {
           background-color: grey;
         }
       }
+    }
+
+    .portfolio-button{
+      display: flex;
+      flex-direction: row; 
+      align-items: center; 
+      position: absolute;
+      height: 2.5rem;
+      width: 12rem;
+      background-color: rgb(16, 16, 16);
+      border: 1px solid white; 
+      border-radius: 5rem;
+      padding: 10px;
+      margin: 0 8rem;
+      // margin: 0 auto; // center horizontally
+      // left: 50%; /* Center horizontally */
+      // transform: translateX(-50%); /* Adjust for horizontal centering */
+      bottom: 3rem;
+      text-decoration: none;
+      color: white;
+      transition: background-color 0.3s ease;
+      z-index: 2;
+
+      @media only screen and (max-width: $small-width) {
+        margin: 8rem 0;
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Adjust for horizontal centering */
+      }
+    
+      &:hover{
+        background-color: rgb(95, 95, 95);
+      }
+    
+      .icon {
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        margin: 0.1rem;
+        color: white;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        text-justify: center;
       
+        i {
+          line-height: 50px;
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 }

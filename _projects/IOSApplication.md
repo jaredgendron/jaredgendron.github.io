@@ -8,7 +8,7 @@ permalink: /portfolio/IOSApplication
 
 ## Summary
 
-The main point of the project was to design and develop an iOS puzzle game from scratch. The game incorporated a proprietary algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application.
+The main point of the project was to design and develop an iOS puzzle game from scratch. The game incorporated an algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application.
 
 ## Description
 
