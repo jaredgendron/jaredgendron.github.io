@@ -8,6 +8,8 @@ permalink: /portfolio/ComputerVision
 
 # Computer Vision Heuristic Algorithm written in Python to Determine Movement Direction from Drone Video Footage
 
+`Python` `Computer-Vision` `Convolution`
+
 ## Summary
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.
