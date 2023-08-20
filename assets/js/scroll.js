@@ -9,8 +9,10 @@ const navbarHeight = $('header').outerHeight();
 
 if ($('#sidebar').length > 0) {
   sidebarOffset = $('#sidebar').offset().top;
+  sidebarBottom = $('#sidebar').offset().bottom;
   scrollPosition = $(document).scrollTop();
   currentTop = sidebarOffset - scrollPosition;
+  currentBottom = sidebarBottom - scrollPosition;
 }
 
 $(window).scroll(function(event){
@@ -32,11 +34,13 @@ function hasScrolled() {
   
   if (st > lastScrollTop && st > navbarHeight){
     $('header').css('top', -navbarHeight);
-    $('#sidebar').css('top', currentTop-navbarHeight);
+    // $('#sidebar').css('top', currentTop-navbarHeight);
+    // $('#sidebar').css('bottom', currentBottom-navbarHeight);
   } else {
     if(st + $(window).height() < $(document).height()) {
       $('header').css('top', 0);
-      $('#sidebar').css('top', currentTop)
+      // $('#sidebar').css('top', currentTop);
+      // $('#sidebar').css('bottom', currentBottom);
     }
   }
   
