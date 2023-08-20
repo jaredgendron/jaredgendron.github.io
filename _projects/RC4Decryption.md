@@ -1,6 +1,6 @@
 ---
 layout: project
-title: RC4 Decryption Hardware for a FPGA
+title: RC4 Decryption Hardware for an FPGA
 permalink: /portfolio/RC4Decryption
 ---
 

@@ -6,6 +6,8 @@
     min-height: 100vh;
     width: 70%;
     padding: 5rem;
+    // box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.2), -2px 0 2px -2px rgba(0, 0, 0, 0.2);
+
   }
 
   .list {
@@ -35,30 +37,32 @@
   .sidebar {
     position: fixed; /* Make the sidebar fixed */
     top: $header-height+3rem; /* Stick the sidebar to the top of the viewport */
-    bottom: 5rem; /* Stretch the sidebar to the bottom of the viewport */
+    bottom: 7rem; /* Stretch the sidebar to the bottom of the viewport */
     left: 3rem; /* Stick the sidebar to the left of the viewport */
     width: $sidebar-width;
     overflow-y: auto; /* Enable scrolling if content overflows */
     transition: top 0.2s ease-in-out;
     background-color: $sidebar-color;
-    border: solid rgb(221, 221, 221) 0.01rem;
-    border-radius: 1rem;
+    // border: solid rgb(221, 221, 221) 0.01rem;
+    // border-top-left-radius: 1rem;
+    // border-bottom-left-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    // box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Add box shadow */
     
     h2 {
       margin: 0 0 1em 0;
     }
     
     h3 {
-      background-color: rgb(221, 221, 221);
+      // background-color: rgb(221, 221, 221);
       color: black;
       margin: 0;
       padding: 0 20px;
-      font-weight: normal;
+      font-weight: bold;
       line-height: 3;
       text-transform: uppercase;
       font-size: 90%;
+      border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
     }
   
     nav ul {
@@ -72,14 +76,14 @@
 
       li {
         padding: 10px;
-        color: #333;
+        color: $link-color;
         background-color: $sidebar-color;
         // margin-top: 0.2rem;
-        border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
+        // border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
   
         cursor: pointer;
         &:hover {
-          background-color: #f2f2f2;
+          // background-color: #f2f2f2;
           text-decoration: underline;
         }
       }

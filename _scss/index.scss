@@ -17,6 +17,8 @@ section {
 }
 
 #banner {
+  background-color: black;
+  
   .container {
     display: flex;
     flex-direction: row;
@@ -109,7 +111,6 @@ section {
 }
 
 .quote {
-  background-color: $secondary-color;
   background-size: cover;
   background-position: center;
   display: flex;

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Simple RISC Machine
+title: Simple RISC Machine on an FPGA
 permalink: /portfolio/RiscMachine
 ---
 
