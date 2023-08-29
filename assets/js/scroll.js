@@ -42,19 +42,19 @@ function hasScrolled() {
   lastScrollTop = st;
 }
 
-fetch('https://api.chess.com/pub/player/slyjey/stats')
-  .then(response => response.json())
-  .then(data => {
-    // Extract rating and date
-    const chessBlitzRating = data.chess_blitz.last.rating;
-    const chessBlitzDate = new Date(data.chess_blitz.last.date * 1000); // Convert to milliseconds
+// fetch('https://api.chess.com/pub/player/slyjey/stats')
+//   .then(response => response.json())
+//   .then(data => {
+//     // Extract rating and date
+//     const chessBlitzRating = data.chess_blitz.last.rating;
+//     const chessBlitzDate = new Date(data.chess_blitz.last.date * 1000); // Convert to milliseconds
 
-    // Format the date into a human-readable format
-    const options = { year: 'numeric', month: 'short', day: 'numeric' };
-    const formattedDate = chessBlitzDate.toLocaleDateString('en-US', options);
+//     // Format the date into a human-readable format
+//     const options = { year: 'numeric', month: 'short', day: 'numeric' };
+//     const formattedDate = chessBlitzDate.toLocaleDateString('en-US', options);
 
-    console.log(`Chess Blitz Rating: ${chessBlitzRating} on ${formattedDate}`);
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
-  });
+//     console.log(`Chess Blitz Rating: ${chessBlitzRating} on ${formattedDate}`);
+//   })
+//   .catch(error => {
+//     console.error('Error fetching data:', error);
+//   });
