@@ -1,12 +1,15 @@
 .wrapper{
+  display: flex;
+  align-items: flex-start;
   background-color: white;
-  padding-top: $header-height;
+  // padding-top: $header-height;
   
   .content {
-    margin-left: $sidebar-width+3rem;
+    margin-left: 3rem;
     min-height: 100vh;
     width: 70%;
     padding: 5rem;
+    transition: all 0.5s ease;
     // box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.2), -2px 0 2px -2px rgba(0, 0, 0, 0.2);
 
   }
@@ -36,7 +39,8 @@
     // }
   
   .sidebar {
-    position: fixed; /* Make the sidebar fixed */
+    position: -webkit-sticky; /* Safari */
+    position: sticky; /* Make the sidebar fixed */
     top: $header-height+3rem; /* Stick the sidebar to the top of the viewport */
     bottom: 7rem; /* Stretch the sidebar to the bottom of the viewport */
     left: 3rem; /* Stick the sidebar to the left of the viewport */
@@ -47,6 +51,7 @@
     // border-top-left-radius: 1rem;
     // border-bottom-left-radius: 1rem;
     overflow: hidden;
+    z-index: 1000
     // box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Add box shadow */
     
     h2 {

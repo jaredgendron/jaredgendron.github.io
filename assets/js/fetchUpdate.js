@@ -4,6 +4,8 @@ const branchUrl = 'https://api.github.com/repos/jaredgendron/jaredgendron.github
 // Find the span element by its class name
 const updateTimeSpan = document.querySelector('.updateTime');
 
+updateTimeSpan.textContent = "Fetching...";
+
 // Fetch branch data
 fetch(branchUrl)
   .then(response => response.json())

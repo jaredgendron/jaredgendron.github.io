@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Mark Pro, sans-serif;
   font-size: 15px;
@@ -25,6 +29,8 @@ body {
 }
 
 header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   background-color: $header-color;
   color: $primary-color;
   border-style: none;
@@ -37,10 +43,8 @@ header {
   margin: 0;
   padding: 0 2rem;
   width: 100%;
-  position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  // left: 50%;
   z-index: 9999;
   transition: top 0.2s ease-in-out;
   
