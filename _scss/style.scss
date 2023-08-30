@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: Mark Pro, sans-serif;
   font-size: 15px;
@@ -122,10 +118,70 @@ footer {
   color: black;
 }
 
-.page {
+.error {
   display: flex;
   justify-content: center;
   padding: 5rem;
   background-color: white;
   min-height: 100vh;
+}
+
+// @keyframes bounce {
+//   0%, 20%, 50%, 80%, 100% {
+//       transform: translateY(0); /* Bounce back to original position */
+//   }
+//   40% {
+//       transform: translateY(-1.875rem); /* First bounce up */
+//   }
+//   60% {
+//       transform: translateY(-0.9375rem); /* Second bounce up */
+//   }
+// }
+
+#portfolio-link{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  position: fixed;
+  height: 3rem;
+  width: 12.5rem;
+  background-color: rgb(16, 16, 16);
+  border: 1px solid white; 
+  border-radius: 5rem;
+  padding: 10px;
+  margin: 0 2rem;
+  right: 0;
+  bottom: -100%;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+  transition: bottom 0.3s ease;
+  z-index: 2;
+  // animation: bounce 1s ease-in-out forwards; /* Apply bounce animation */
+
+  // @media only screen and (max-width: $small-width) {
+  //   left: 50%; /* Center horizontally */
+  //   transform: translateX(-50%); /* Adjust for horizontal centering */
+  // }
+
+  &:hover{
+    background-color: rgb(95, 95, 95);
+  }
+
+  .icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-justify: center;
+  
+    i {
+      line-height: 50px;
+      font-size: 1.5rem;
+    }
+  }
 }

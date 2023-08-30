@@ -343,8 +343,8 @@ section {
       position: absolute;
       height: 2.5rem;
       width: 12rem;
-      background-color: rgb(16, 16, 16);
-      border: 1px solid white; 
+      // background-color: rgb(16, 16, 16);
+      border: 1px solid black; 
       border-radius: 5rem;
       padding: 10px;
       margin: 0 8rem;
@@ -353,7 +353,7 @@ section {
       // transform: translateX(-50%); /* Adjust for horizontal centering */
       bottom: 3rem;
       text-decoration: none;
-      color: white;
+      color: black;
       transition: background-color 0.3s ease;
       z-index: 2;
 
@@ -364,7 +364,7 @@ section {
       }
     
       &:hover{
-        background-color: rgb(95, 95, 95);
+        background-color: rgba(221, 221, 221, 0.61);
       }
     
       .icon {
@@ -372,7 +372,7 @@ section {
         width: 3rem;
         height: 3rem;
         margin: 0.1rem;
-        color: white;
+        color: black;
         overflow: hidden;
         position: relative;
         text-align: center;
