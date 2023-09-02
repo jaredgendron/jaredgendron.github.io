@@ -4,9 +4,8 @@ layout: layout
 
 <div class="wrapper">
   <div class=sidebar id="sidebar">
-    <h3>Projects</h3>
-    <nav>
-      <ul>
+    <div class="tabular-list">
+      <div class="header">Projects</div>
         {% assign projects = site.projects %}
         {% for project in projects %}
           <a href="{{ project.permalink }}">
@@ -15,8 +14,7 @@ layout: layout
             </li>
           </a>
         {% endfor %}
-      </ul>
-    </nav>    
+    </div>  
   </div>
   <div class="content">
     <div class="markdown-body">

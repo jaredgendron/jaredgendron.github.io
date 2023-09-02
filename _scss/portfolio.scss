@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   background-color: white;
-  // padding-top: $header-height;
+  padding-inline: .5vw;
 
   .image-container {
     display: flex;
@@ -18,7 +18,7 @@
   .content {
     margin-left: 3rem;
     min-height: 100vh;
-    width: 70%;
+    width: 100%;
     padding: 5rem;
     // box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.2), -2px 0 2px -2px rgba(0, 0, 0, 0.2);
 
@@ -31,7 +31,7 @@
 
   .list {
     @extend .content;
-    width: 90vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -40,36 +40,36 @@
       margin-right: none;
       margin-left: none;
     }
+  }
 
-    .tabular-list{
-      border: .002rem solid hsla(210,18%,87%,1); /* 2px black solid border */
-      border-radius: 10px; /* 10px border radius for rounded edges */
-      overflow: hidden;
-      margin-top: 1rem;
-      box-shadow: 2px 2px 5px rgba(.025, .025, .025, .025);
+  .tabular-list{
+    border: .002rem solid hsla(210,18%,87%,1); /* 2px black solid border */
+    border-radius: 10px; /* 10px border radius for rounded edges */
+    overflow: hidden;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px rgba(.025, .025, .025, .025);
 
-      .header{
-        background-color: $tab-list-hover;
-        font-weight: 530;
-        padding: 0.75rem 1rem;
-        font-size: 1rem;
-        color: $tab-list-color;
-      }
+    .header{
+      background-color: $tab-list-hover;
+      font-weight: 530;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      color: $tab-list-color;
+    }
 
-      a {
-        color: $tab-list-color;
-        text-decoration: none;
-        
-        li {
-          padding: .5rem 1rem;
-          list-style: none;
-          border-top: 1px solid hsla(210,18%,87%,1);
-          // border-radius: 0.5rem;
-          // margin-bottom: 0.2rem;
-          &:hover{
-            text-decoration: underline;
-            background-color: $tab-list-hover;
-          }
+    a {
+      color: $tab-list-color;
+      text-decoration: none;
+      
+      li {
+        padding: .5rem 1rem;
+        list-style: none;
+        border-top: 1px solid hsla(210,18%,87%,1);
+        // border-radius: 0.5rem;
+        // margin-bottom: 0.2rem;
+        &:hover{
+          text-decoration: underline;
+          background-color: $tab-list-hover;
         }
       }
     }
@@ -83,57 +83,30 @@
     left: 3rem; /* Stick the sidebar to the left of the viewport */
     width: $sidebar-width;
     max-height: calc(100vh - $header-height*3);
-    overflow-y: auto; /* Enable scrolling if content overflows */
+    overflow-y: auto;
     transition: top 0.2s ease-in-out;
-    // border: solid rgb(221, 221, 221) 0.01rem;
-    // border-top-left-radius: 1rem;
-    // border-bottom-left-radius: 1rem;
-    // overflow: hidden;
     z-index: 1000;
-    // box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 
     @media all and (max-width: $small-width) {
       display: none;
     }
-    
-    h2 {
-      margin: 0 0 1em 0;
-    }
-    
-    h3 {
-      // background-color: rgb(221, 221, 221);
-      color: black;
-      margin: 0;
-      padding: 0 20px;
-      font-weight: bold;
-      line-height: 3;
-      text-transform: uppercase;
-      font-size: 90%;
-      border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
-    }
-  
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
 
-      a {
-        text-decoration: none;
-      }
+    // &::before{
+    //   width: 100%;
+    //   height: 30px;
+    //   background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9));
+    // }
 
-      li {
-        padding: 10px;
-        color: $link-color;
-        // background-color: $sidebar-color;
-        // margin-top: 0.2rem;
-        // border-bottom: 1px solid #ccc; /* Add a solid border to the bottom */
-  
-        cursor: pointer;
-        &:hover {
-          // background-color: #f2f2f2;
-          text-decoration: underline;
-        }
-      }
+    // &::after{
+    //   width: 100%;
+    //   height: 30px;
+    //   background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.9));
+    // }
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
     }
   }
 }
