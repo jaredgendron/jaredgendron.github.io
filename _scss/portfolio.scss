@@ -46,11 +46,13 @@
       border-radius: 10px; /* 10px border radius for rounded edges */
       overflow: hidden;
       margin-top: 1rem;
+      box-shadow: 2px 2px 5px rgba(.025, .025, .025, .025);
 
       .header{
-        font-weight: 600;
-        padding: 1rem;
-        font-size: 1.4rem;
+        background-color: $tab-list-hover;
+        font-weight: 530;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
         color: $tab-list-color;
       }
 
@@ -66,7 +68,7 @@
           // margin-bottom: 0.2rem;
           &:hover{
             text-decoration: underline;
-            background-color: rgba(215, 215, 215, 0.451);
+            background-color: $tab-list-hover;
           }
         }
       }
