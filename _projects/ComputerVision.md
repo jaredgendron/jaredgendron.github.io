@@ -6,7 +6,7 @@ finished: false
 ---
 
 
-# Computer Vision Heuristic Algorithm written in Python to Determine Movement Direction from Drone Video Footage
+# Computer Vision Heuristic Algorithm written in Python
 
 `Python` `Computer-Vision` `Convolution`
 
