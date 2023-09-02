@@ -18,6 +18,14 @@ layout: layout
   </div>
   <div class="content">
     <div class="markdown-body">
+      {% if page.finished == false %}
+        <div class="notice">
+          <div class="icon">
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          The documentation for this project has been marked as unfinished, please come back soon
+        </div>
+      {% endif %}
       {{ content }}
     </div>
   </div>

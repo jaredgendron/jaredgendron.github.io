@@ -2,9 +2,9 @@
 layout: project
 title: RC4 Decryption Hardware for an FPGA
 permalink: /portfolio/RC4Decryption
+finished: false
 ---
 
-⚠️ The documentation for this project has been marked as unfinished, please come back soon
 
 # RC4 Decryption Hardware Written in Verilog for an FPGA
 

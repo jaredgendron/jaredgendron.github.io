@@ -2,9 +2,9 @@
 layout: project
 title: Simple RISC Machine on an FPGA
 permalink: /portfolio/RiscMachine
+finished: false
 ---
 
-⚠️ The documentation for this project has been marked as unfinished, please come back soon
 
 # Simple Risc Machine Written in Verilog for an FPGA
 

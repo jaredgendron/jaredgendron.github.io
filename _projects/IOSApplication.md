@@ -2,9 +2,9 @@
 layout: project
 title: IOS Puzzle Game Application
 permalink: /portfolio/IOSApplication
+finished: false
 ---
 
-⚠️ The documentation for this project has been marked as unfinished, please come back soon
 
 # Puzzle Game Application for IOS
 

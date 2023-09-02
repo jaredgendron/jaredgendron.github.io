@@ -2,9 +2,9 @@
 layout: project
 title: IoT Parking Sign
 permalink: /portfolio/IoTParkingSign
+finished: false
 ---
 
-⚠️ The documentation for this project has been marked as unfinished, please come back soon
 
 # Standalone IoT Digital Parking Sign
 
