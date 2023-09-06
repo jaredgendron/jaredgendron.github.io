@@ -43,11 +43,11 @@
   }
 
   .tabular-list{
-    border: .002rem solid hsla(210,18%,87%,1); /* 2px black solid border */
+    border: .002rem solid rgb(208, 215, 222); /* 2px black solid border */
     border-radius: 10px; /* 10px border radius for rounded edges */
     overflow: hidden;
     margin-top: 1rem;
-    box-shadow: 2px 2px 5px rgba(.025, .025, .025, .025);
+    box-shadow: 0 0 10px 0.5px rgba(.025, .025, .025, .025);
 
     .header{
       background-color: $tab-list-hover;
