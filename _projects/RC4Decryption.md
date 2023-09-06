@@ -14,6 +14,10 @@ finished: false
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.
 
+![De1-SoC](/assets/images/RC4Decryption/de1TopDown.png)
+
 ## Description
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.
+
+![De1-SoC](/assets/images/RC4Decryption/de1Front.png)

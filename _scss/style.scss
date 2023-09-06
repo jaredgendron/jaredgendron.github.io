@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Optimistic Display';
+  src: url('/assets/fonts/Optimistic_Display_W_Bd.woff2') format('woff2'); /* Specify the path to your font file and format */
+  /* You can also specify font-weight and font-style if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Optimistic Text';
+  src: url('/assets/fonts/Optimistic_Text_W_Rg.woff2') format('woff2'); /* Specify the path to your font file and format */
+  /* You can also specify font-weight and font-style if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Optimistic Text';
+  src: url('/assets/fonts/Optimistic_Text_W_Bd.woff2') format('woff2'); /* Specify the path to your font file and format */
+  /* You can also specify font-weight and font-style if needed */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Regular';
+  src: url('/assets/fonts/Source-Code-Pro-Regular.woff2') format('woff2'); /* Specify the path to your font file and format */
+  /* You can also specify font-weight and font-style if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,13 +73,21 @@ header {
 
     .profile {
       display: flex;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
       
       h1 {
+        font-family: 'Optimistic Display';
+        text-transform: uppercase;
         font-size: 1.2rem;
         padding-inline: 0.5rem;
       }
   
       p {
+        font-family: 'Optimistic Text';
         align-self: center;
       }
   
