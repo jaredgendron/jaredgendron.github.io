@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Optimistic Display';
+  src: url('/assets/fonts/Optimistic_Display_W_Bd.woff2') format('woff2'); /* Specify the path to your font file and format */
+  /* You can also specify font-weight and font-style if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -9,7 +17,8 @@ section {
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-family: 'Optimistic Display';
+    font-size: 1.8rem;
     text-align: left;
     padding: 0.5rem 0;
   }
@@ -74,6 +83,7 @@ section {
         }
 
         .heading {
+          font-family: 'Optimistic Display';
           display: inline-block;
           font-size: clamp(2.5rem, 5vw, 3.5rem);
           text-align: left;

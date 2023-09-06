@@ -5,98 +5,85 @@ permalink: /portfolio
 
 <div class="wrapper">
   <div class="list">
-    <!-- <div class="markdown-body"> -->
-      <h1>Engineering Portfolio</h1>
+    <h1>Engineering Portfolio</h1>
+    <div class="update"><p>Last update: <span class="updateTime">Enable JavaScript</span></p></div>
 
-      <div class="notice">
-        <div class="icon">
-          <i class="fas fa-exclamation-triangle"></i>
-        </div>
-        <div class="text">
-          This website is recently built and is constantly being updated. For projects that are not yet complete, please come back shortly
-        </div>
-      </div>
+    <!-- {% assign projects = site.projects %}
+    {% for project in projects %}
+    <li class="project-link">
+      <a href="{{ project.permalink }}">{{ project.title }}</a>
+    </li>
+    {% endfor %} -->
 
-      <div class="update"><p>Last update: <span class="updateTime">Enable JavaScript</span></p></div>
+    <div class="tabular-list">
+      <div class="header">Recent Projects</div>
 
-      <!-- {% assign projects = site.projects %}
-      {% for project in projects %}
-      <li class="project-link">
-        <a href="{{ project.permalink }}">{{ project.title }}</a>
-      </li>
-      {% endfor %} -->
+      <a href="/portfolio/IoTParkingSign">
+        <li class="project-link">
+          Digital IoT Parking Sign
+        </li>
+      </a>
+      <a href="/portfolio/IOSApplication">
+        <li class="project-link">
+          Puzzle Game IOS Application
+        </li>
+      </a>
+    </div>
 
+    <!-- <div class="image-container">
+      <img src="/assets/images/ubclogo2.png">
+      <img src="/assets/images/ece.png">
+    </div> -->
 
-      <div class="tabular-list">
-        <div class="header">Recent Projects</div>
+    <div class="tabular-list">
+      <div class="header">4th Year Projects</div>
 
-        <a href="/portfolio/IoTParkingSign">
-          <li class="project-link">
-            Digital IoT Parking Sign
-          </li>
-        </a>
-        <a href="/portfolio/IOSApplication">
-          <li class="project-link">
-            Puzzle Game IOS Application
-          </li>
-        </a>
-      </div>
+      <a href="/portfolio/ATMIC">
+        <li class="project-link">
+          ATM Integrated Chip Design
+        </li>
+      </a>
+    </div>
 
-      <!-- <div class="image-container">
-        <img src="/assets/images/ubclogo2.png">
-        <img src="/assets/images/ece.png">
-      </div> -->
+    <div class="tabular-list">
+      <div class="header">3rd Year Projects</div>
 
-      <div class="tabular-list">
-        <div class="header">4th Year Projects</div>
+      <a href="/portfolio/RoboticArm">
+        <li class="project-link">
+          Robotic Arm with 3.5 Degrees of Freedom
+        </li>
+      </a>
+      <a href="/portfolio/RC4Decryption">
+        <li class="project-link">
+          RC4 Decryption Hardware within an FPGA
+        </li>
+      </a>
+    </div>
 
-        <a href="/portfolio/ATMIC">
-          <li class="project-link">
-            ATM Integrated Chip Design
-          </li>
-        </a>
-      </div>
+    <div class="tabular-list">
+      <div class="header">2nd Year Projects</div>
 
-      <div class="tabular-list">
-        <div class="header">3rd Year Projects</div>
-
-        <a href="/portfolio/RoboticArm">
-          <li class="project-link">
-            Robotic Arm with 3.5 Degrees of Freedom
-          </li>
-        </a>
-        <a href="/portfolio/RC4Decryption">
-          <li class="project-link">
-            RC4 Decryption Hardware within an FPGA
-          </li>
-        </a>
-      </div>
-
-      <div class="tabular-list">
-        <div class="header">2nd Year Projects</div>
-
-        <a href="/portfolio/ReflowController">
-          <li class="project-link">
-            Reflow Oven Controller with Advanced Safety Features
-          </li>
-        </a>
-        <a href="/portfolio/RiscMachine">
-          <li class="project-link">
-            Simple Risc Machine within an FPGA
-          </li>
-        </a>
-        <a href="/portfolio/MetalDetector">
-          <li class="project-link">
-            Metal Detector with Advanced User Interface
-          </li>
-        </a>
-        <a href="/portfolio/ComputerVision">
-          <li class="project-link">
-            Computer Vision Algorithm written in Python
-          </li>
-        </a>
-      </div>
-    <!-- </div> -->
+      <a href="/portfolio/ReflowController">
+        <li class="project-link">
+          Reflow Oven Controller with Advanced Safety Features
+        </li>
+      </a>
+      <a href="/portfolio/RiscMachine">
+        <li class="project-link">
+          Simple Risc Machine within an FPGA
+        </li>
+      </a>
+      <a href="/portfolio/MetalDetector">
+        <li class="project-link">
+          Metal Detector with Advanced User Interface
+        </li>
+      </a>
+      <a href="/portfolio/ComputerVision">
+        <li class="project-link">
+          Computer Vision Algorithm written in Python
+        </li>
+      </a>
+    </div>
   </div>
 </div>
 
