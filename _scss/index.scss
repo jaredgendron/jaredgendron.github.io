@@ -76,6 +76,7 @@ section {
 
         .heading {
           font-family: 'Optimistic Display';
+          text-transform: uppercase;
           display: inline-block;
           font-size: clamp(2.5rem, 5vw, 3.5rem);
           text-align: left;
