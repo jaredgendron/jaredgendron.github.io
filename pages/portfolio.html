@@ -18,16 +18,14 @@ permalink: /portfolio
     <div class="tabular-list">
       <div class="header">Recent Projects</div>
 
-      <a href="/portfolio/IoTParkingSign">
-        <li class="project-link">
-          Digital IoT Parking Sign
-        </li>
-      </a>
-      <a href="/portfolio/IOSApplication">
-        <li class="project-link">
-          Puzzle Game IOS Application
-        </li>
-      </a>
+      {% assign project_title='Digital IoT Parking Sign'%}
+      {% assign project_href="/portfolio/IoTParkingSign"%}
+      {% include project-link.html %}
+
+      {% assign project_title="Puzzle Game IOS Application"%}
+      {% assign project_href="/portfolio/IOSApplication"%}
+      {% include project-link.html %}
+
     </div>
 
     <!-- <div class="image-container">
@@ -38,51 +36,44 @@ permalink: /portfolio
     <div class="tabular-list">
       <div class="header">4th Year Projects</div>
 
-      <a href="/portfolio/ATMIC">
-        <li class="project-link">
-          ATM Integrated Chip Design
-        </li>
-      </a>
+      {% assign project_title="ATM Integrated Chip Design"%}
+      {% assign project_href="/portfolio/ATMIC"%}
+      {% include project-link.html %}
+
     </div>
 
     <div class="tabular-list">
       <div class="header">3rd Year Projects</div>
 
-      <a href="/portfolio/RoboticArm">
-        <li class="project-link">
-          Robotic Arm with 3.5 Degrees of Freedom
-        </li>
-      </a>
-      <a href="/portfolio/RC4Decryption">
-        <li class="project-link">
-          RC4 Decryption Hardware within an FPGA
-        </li>
-      </a>
+      {% assign project_title="Robotic Arm with 3.5 Degrees of Freedom"%}
+      {% assign project_href="/portfolio/RoboticArm"%}
+      {% include project-link.html %}
+
+      {% assign project_title="RC4 Decryption Hardware within an FPGA"%}
+      {% assign project_href="/portfolio/RC4Decryption"%}
+      {% include project-link.html %}
+
     </div>
 
     <div class="tabular-list">
       <div class="header">2nd Year Projects</div>
 
-      <a href="/portfolio/ReflowController">
-        <li class="project-link">
-          Reflow Oven Controller with Advanced Safety Features
-        </li>
-      </a>
-      <a href="/portfolio/RiscMachine">
-        <li class="project-link">
-          Simple Risc Machine within an FPGA
-        </li>
-      </a>
-      <a href="/portfolio/MetalDetector">
-        <li class="project-link">
-          Metal Detector with Advanced User Interface
-        </li>
-      </a>
-      <a href="/portfolio/ComputerVision">
-        <li class="project-link">
-          Computer Vision Algorithm written in Python
-        </li>
-      </a>
+      {% assign project_title="Reflow Oven Controller with Advanced Safety Features"%}
+      {% assign project_href="/portfolio/ReflowController"%}
+      {% include project-link.html %}
+
+      {% assign project_title="Simple Risc Machine within an FPGA"%}
+      {% assign project_href="/portfolio/RiscMachine"%}
+      {% include project-link.html %}
+
+      {% assign project_title="Metal Detector with Advanced User Interface"%}
+      {% assign project_href="/portfolio/MetalDetector"%}
+      {% include project-link.html %}
+
+      {% assign project_title="Computer Vision Algorithm written in Python"%}
+      {% assign project_href="/portfolio/ComputerVision"%}
+      {% include project-link.html %}
+      
     </div>
   </div>
 </div>
