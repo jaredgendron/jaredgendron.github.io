@@ -5,14 +5,12 @@ layout: layout
 <div class="wrapper">
   <div class=sidebar id="sidebar">
     <div class="tabular-list">
-      <div class="header">Projects</div>
+      <div class="table-header">Projects</div>
         {% assign projects = site.projects | sort: 'year' | reverse %}
         {% for project in projects %}
-          <a href="{{ project.permalink }}">
-            <li class="project-link">
-              {{ project.title }}
-            </li>
-          </a>
+          {% assign project_title=project.title %}
+          {% assign project_href=project.permalink %}
+          {% include project-link.html %}
         {% endfor %}
     </div>  
   </div>

@@ -13,9 +13,9 @@ permalink: /portfolio
     {% for i in (2..5) reversed %}
       <div class="tabular-list">
         {% if i == 5 %}
-        <div class="header">Recent Projects</div>
+        <div class="table-header">Recent Projects</div>
         {% else %}
-          <div class="header">Year {{ i }} Projects</div>
+          <div class="table-header">Year {{ i }} Projects</div>
         {% endif %}
         {% for project in projects %}
           {% if project.year == i %}
@@ -26,7 +26,7 @@ permalink: /portfolio
         {% endfor %}
       </div>
     {% endfor %}
-    
+
   </div>
 </div>
 

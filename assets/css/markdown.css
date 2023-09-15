@@ -101,8 +101,12 @@
 .markdown-body img {
   border-style: none;
   max-width: 100%;
-  box-sizing: content-box;
+  height: auto;
   background-color: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
 }
 
 .markdown-body code,
