@@ -7,74 +7,26 @@ permalink: /portfolio
   <div class="list">
     <h1>Engineering Portfolio</h1>
     <div class="update"><p>Last update: <span class="updateTime">Enable JavaScript</span></p></div>
+    
+    {% assign projects = site.projects | sort: 'year' %}
 
-    <!-- {% assign projects = site.projects %}
-    {% for project in projects %}
-    <li class="project-link">
-      <a href="{{ project.permalink }}">{{ project.title }}</a>
-    </li>
-    {% endfor %} -->
-
-    <div class="tabular-list">
-      <div class="header">Recent Projects</div>
-
-      {% assign project_title='Digital IoT Parking Sign'%}
-      {% assign project_href="/portfolio/IoTParkingSign"%}
-      {% include project-link.html %}
-
-      {% assign project_title="Puzzle Game IOS Application"%}
-      {% assign project_href="/portfolio/IOSApplication"%}
-      {% include project-link.html %}
-
-    </div>
-
-    <!-- <div class="image-container">
-      <img src="/assets/images/ubclogo2.png">
-      <img src="/assets/images/ece.png">
-    </div> -->
-
-    <div class="tabular-list">
-      <div class="header">4th Year Projects</div>
-
-      {% assign project_title="ATM Integrated Chip Design"%}
-      {% assign project_href="/portfolio/ATMIC"%}
-      {% include project-link.html %}
-
-    </div>
-
-    <div class="tabular-list">
-      <div class="header">3rd Year Projects</div>
-
-      {% assign project_title="Robotic Arm with 3.5 Degrees of Freedom"%}
-      {% assign project_href="/portfolio/RoboticArm"%}
-      {% include project-link.html %}
-
-      {% assign project_title="RC4 Decryption Hardware within an FPGA"%}
-      {% assign project_href="/portfolio/RC4Decryption"%}
-      {% include project-link.html %}
-
-    </div>
-
-    <div class="tabular-list">
-      <div class="header">2nd Year Projects</div>
-
-      {% assign project_title="Reflow Oven Controller with Advanced Safety Features"%}
-      {% assign project_href="/portfolio/ReflowController"%}
-      {% include project-link.html %}
-
-      {% assign project_title="Simple Risc Machine within an FPGA"%}
-      {% assign project_href="/portfolio/RiscMachine"%}
-      {% include project-link.html %}
-
-      {% assign project_title="Metal Detector with Advanced User Interface"%}
-      {% assign project_href="/portfolio/MetalDetector"%}
-      {% include project-link.html %}
-
-      {% assign project_title="Computer Vision Algorithm written in Python"%}
-      {% assign project_href="/portfolio/ComputerVision"%}
-      {% include project-link.html %}
-      
-    </div>
+    {% for i in (2..5) reversed %}
+      <div class="tabular-list">
+        {% if i == 5 %}
+        <div class="header">Recent Projects</div>
+        {% else %}
+          <div class="header">Year {{ i }} Projects</div>
+        {% endif %}
+        {% for project in projects %}
+          {% if project.year == i %}
+            {% assign project_title=project.title %}
+            {% assign project_href=project.permalink %}
+            {% include project-link.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+    
   </div>
 </div>
 

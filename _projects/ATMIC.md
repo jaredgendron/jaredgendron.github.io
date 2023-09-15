@@ -2,6 +2,7 @@
 layout: project
 title: ATM Integrated Chip Design
 permalink: /portfolio/ATMIC
+year: 4
 finished: false
 ---
 

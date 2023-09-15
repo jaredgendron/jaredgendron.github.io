@@ -2,6 +2,7 @@
 layout: project
 title: Simple RISC Machine on an FPGA
 permalink: /portfolio/RiscMachine
+year: 2
 ---
 
 

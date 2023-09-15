@@ -3,17 +3,6 @@
   align-items: flex-start;
   background-color: white;
   padding-inline: .5vw;
-
-  .image-container {
-    display: flex;
-    img{
-      height: 50px;
-      margin: 3rem 2rem 0 0;
-    }
-    @media only screen and (max-width: $small-width) {
-      display: none;
-    }
-  }
   
   .content {
     margin-left: 3rem;

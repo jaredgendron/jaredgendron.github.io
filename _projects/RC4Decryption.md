@@ -2,6 +2,7 @@
 layout: project
 title: RC4 Decryption Hardware for an FPGA
 permalink: /portfolio/RC4Decryption
+year: 3
 finished: false
 ---
 

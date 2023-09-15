@@ -2,6 +2,7 @@
 layout: project
 title: Computer Vision Algorithm in Python
 permalink: /portfolio/ComputerVision
+year: 2
 finished: false
 ---
 

@@ -14,30 +14,23 @@ permalink: /
         <p class="sub-heading"><b>Electrical Engineering Graduate</b> from the <b>University of British Columbia</b></p>
       </div>
       <div class="social-container">
-        <a class="social-button" href="https://ca.linkedin.com/in/jared-gendron-1b94771a3" target="_blank">
-          <div class="icon">
-            <i class="fab fa-linkedin"></i>
-          </div>
-          <p>
-            LinkedIn
-          </p>
-        </a>
-        <a class="social-button" href="https://github.com/jaredgendron" target="_blank">
-          <div class="icon">
-            <i class="fab fa-github"></i>
-          </div>
-          <p>
-            Github
-          </p>
-        </a>
-        <a class="social-button" href="mailto:jaredwgendron@gmail.com">
-          <div class="icon">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <p>
-            Email
-          </p>
-        </a>
+
+        {% assign button_title="LinkedIn"%}
+        {% assign button_link="https://ca.linkedin.com/in/jared-gendron-1b94771a3"%}
+        {% assign button_icon="fab fa-linkedin"%}
+        {% include social-button.html %}
+
+        {% assign button_title="Github"%}
+        {% assign button_link="https://github.com/jaredgendron"%}
+        {% assign button_icon="fab fa-github"%}
+        {% include social-button.html %}
+
+        {% assign button_title="Email"%}
+        {% assign button_link="mailto:jaredwgendron@gmail.com"%}
+        {% assign button_target="_self"%}
+        {% assign button_icon="fas fa-envelope"%}
+        {% include social-button.html %}
+        
       </div>
     </div>
   </div>
@@ -45,6 +38,10 @@ permalink: /
 
 <section id="about">
   <h2>About Me</h2>
+    <div class="image-container">
+      <img src="/assets/images/ubclogo2.png">
+      <img src="/assets/images/ece.png">
+    </div>
   {% capture markdown_content %}{% include bio.md %}{% endcapture %}
   {{ markdown_content | markdownify }}
 </section>

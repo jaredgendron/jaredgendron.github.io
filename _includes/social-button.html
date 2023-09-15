@@ -1,0 +1,8 @@
+<a class="social-button" href="{{ button_link | default: ''}}" target="{{ button_target | default: '_blank'}}">
+  <div class="icon">
+    <i class="{{ button_icon }}"></i>
+  </div>
+  <p>
+    {{ button_title | default: "Button"}}
+  </p>
+</a>

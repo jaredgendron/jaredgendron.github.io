@@ -2,6 +2,7 @@
 layout: project
 title: Metal Detector
 permalink: /portfolio/MetalDetector
+year: 2
 ---
 
 
