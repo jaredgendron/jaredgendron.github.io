@@ -107,6 +107,8 @@
   margin-left: auto;
   margin-right: auto;
   box-sizing: content-box;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .markdown-body code,

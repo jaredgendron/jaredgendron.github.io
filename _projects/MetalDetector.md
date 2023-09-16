@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Metal Detector
+title: Metal Detector with Advanced User Interface
 permalink: /portfolio/MetalDetector
 year: 2
 ---
