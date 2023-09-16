@@ -13,6 +13,10 @@ permalink: /
         <h2 class="heading">Jared Gendron</h2>
         <p class="sub-heading"><b>Electrical Engineering Graduate</b> from the <b>University of British Columbia</b></p>
       </div>
+      <div class="image-container">
+        <img src="/assets/images/ubclogo2.png">
+        <img src="/assets/images/ece.png">
+      </div>
       <div class="social-container">
 
         {% assign button_title="LinkedIn"%}
@@ -38,10 +42,6 @@ permalink: /
 
 <section id="about">
   <h2>About Me</h2>
-    <div class="image-container">
-      <img src="/assets/images/ubclogo2.png">
-      <img src="/assets/images/ece.png">
-    </div>
   {% capture markdown_content %}{% include bio.md %}{% endcapture %}
   {{ markdown_content | markdownify }}
 </section>

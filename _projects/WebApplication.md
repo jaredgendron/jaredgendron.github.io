@@ -9,22 +9,24 @@ finished: false
 
 # Web Application for Configuring IoT Devices
 
-`AWS` `LTE` `MQTT` `LoRaWAN` `NodeJS`
+`AWS` `LTE` `MQTT` `API` `LoRaWAN` `NodeJS`
 
 
 ## Summary
 
-The main point of the project was to create an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates on an hourly schedule or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application.
+This project involves the development of a web-based control interface for managing multiple devices, prioritizing accessibility and user-friendliness. The interface is designed to run on AWS servers, chosen based on operating system compatibility and scalability considerations. To ensure security, user authentication is required before configuring devices. Users can make real-time configurations and create precise hourly schedules, and the interface is responsive for mobile devices. Communication with devices occurs through Wi-Fi and USB connections for flexibility. The system utilizes the NodeJS runtime environment with Express.js and MQTT protocol for real-time communication.
 
 ## Description
 
-The five person team collaborated closely with a client to successfully conceptualize, design, and develop an innovative digital parking sign that dynamically adjusts its display based on real-time data. The parking sign's display can be updated through an hourly schedule or by feedback from sensors, providing utmost flexibility and adaptability. The team oversaw the entire project lifecycle, from requirements gathering and system architecture design to prototype development, and thorough testing. Throughout the process, the focus remained on ensuring the sign's capability to receive updates down to the minute or respond to sensor feedback, enhancing its effectiveness in serving users. I developed a robust web application from inception, showcasing expertise in engineering and wireless technologies to establish a seamless and secure wireless connection between the digital parking sign and the application. The wireless connectivity ensures swift communication between the sign and the application, enabling timely updates based on scheduled intervals or sensor-driven data. I employed AWS for efficient server hosting, management, and integration, while implementing MQTT protocol over an LTE connection for reliable device communication. This strategic use of technology allowed the digital parking sign to stay constantly connected, receiving updates regularly through the scheduled minute intervals or in response to sensor input, thus optimizing its functionality.
+The web application for this project serves as a control interface for multiple devices, prioritizing ease of use and accessibility. The choice of a web-based interface over other remote control methods aligns with the client's preference for a readily available computer interface without the need for new remote-control hardware. The web app is designed to run on Amazon Web Service (AWS) servers and its runtime environment is chosen based on operating system compatibility and scalability. 
 
-## Web Application
+To ensure security and access control, user authentication is implemented before device configuration is allowed. Users can make real-time configurations and create hourly schedules for device actions via the web app, with responsive design adjustments to cater to mobile device users. Communication between devices and the web app is facilitated through both Wi-Fi and USB connections, enhancing flexibility and usability.
 
-The `web-app` was designed to allow an administrative user to make configurations to the sign remotely and without needing to disasemble the device. The application requires authentication credentials to login and once logged in the admin is able to add new devices, create new display changes in the schedule, or upload new images to the devices.
+Under the hood, the web app is built using the NodeJS runtime environment with the Express.js framework, running on UBC servers. It leverages MQTT protocol for real-time machine-to-machine communication and employs SQLite for scheduling functionality with persistent data storage. Furthermore, the web app adapts its user interface to fit various screen sizes when accessed via mobile devices, ensuring a seamless user experience.
 
-The application also exposes an API for the implementation of its image upload process
+### API
+
+The web application extends its functionality by exposing an Application Programming Interface (API) for uploading images directly to the devices it controls. This API allows users to seamlessly transmit images from their local storage or external sources to the targeted devices, enhancing the versatility of the control interface. By providing this feature, the web application not only streamlines the configuration process but also opens up possibilities for integrating image-related tasks into the device's operations, enriching its capabilities and usability for a wide range of applications. Through this API, users can harness the power of images to enhance their device interactions, ultimately contributing to a more comprehensive and user-friendly control experience.
 
 ### Software Flow
 
@@ -32,20 +34,30 @@ The application also exposes an API for the implementation of its image upload p
 
 ### Login
 
+At the login screen of the web application, user credentials are a mandatory requirement for access. Users must provide a valid username and password combination to authenticate and gain entry into the system. This essential security measure ensures that only authorized individuals with the correct login credentials can access and interact with the application's features and functionalities, safeguarding sensitive information and maintaining data integrity.
+
 ![Image](/assets/images/IoTParkingSign/login.png)
 
 ### Dashboard
+
+The dashboard of the web application empowers administrative users with the ability to effectively monitor and manage connected devices. Through this interface, administrators can gain real-time insights into device statuses, configurations, and operational data. 
 
 ![Image](/assets/images/IoTParkingSign/dashboard.png)
 
 ### Schedule
 
+The schedule page offers users the flexibility to create precise daily schedules down to the minute, providing fine-grained control over device operations. Users can define specific time intervals and actions, enabling automated and granular device configurations to suit their needs and preferences with precision and convenience.
+
 ![Image](/assets/images/IoTParkingSign/schedule.png)
 
 ### Manage
 
+The manage page simplifies device management by enabling users to create devices and seamlessly pair them with active controllers. Furthermore, this process ensures that the connected controllers are automatically updated and reflected in the controllers list, simplifying the user experience and facilitating efficient device-controller associations.
+
 ![Image](/assets/images/IoTParkingSign/devices.png)
 
 ### Gallery
+
+The gallery page offers users the capability to upload images to the server for synchronization with devices, enhancing the versatility of the control interface. Users can conveniently upload images from either their computer or mobile device, making it effortless to integrate visual content into device configurations and interactions, enriching the overall user experience.
 
 ![Image](/assets/images/IoTParkingSign/gallery.png)
