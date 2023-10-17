@@ -42,7 +42,7 @@
   }
 
   .tabular-list{
-    border: .002rem solid rgb(208, 215, 222); /* 2px black solid border */
+    border: .002rem solid $tab-list-border-color; /* 2px black solid border */
     border-radius: 10px; /* 10px border radius for rounded edges */
     overflow: hidden;
     margin-top: 1rem;
@@ -95,18 +95,6 @@
     @media all and (max-width: $small-width) {
       display: none;
     }
-
-    // &::before{
-    //   width: 100%;
-    //   height: 30px;
-    //   background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9));
-    // }
-
-    // &::after{
-    //   width: 100%;
-    //   height: 30px;
-    //   background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.9));
-    // }
 
     &::-webkit-scrollbar {
       width: 8px;

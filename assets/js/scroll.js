@@ -1,11 +1,17 @@
+const navbarHeight = $('header').outerHeight();
+const portfolioButton = document.getElementById('portfolio-link');
+const header = $('header');
+
+if (window.location.pathname.startsWith('/portfolio')) {
+  header.addClass('portfolio-header');
+}
+
 let didScroll;
 let lastScrollTop = 0;
 let delta = 5;
 let currentTop;
 let sidebarOffset;
 let scrollPosition;
-const navbarHeight = $('header').outerHeight();
-const portfolioButton = document.getElementById('portfolio-link');
 
 if ($('#sidebar').length > 0) {
   sidebarOffset = $('#sidebar').offset().top;
@@ -48,20 +54,3 @@ function hasScrolled() {
   
   lastScrollTop = st;
 }
-
-// fetch('https://api.chess.com/pub/player/slyjey/stats')
-//   .then(response => response.json())
-//   .then(data => {
-//     // Extract rating and date
-//     const chessBlitzRating = data.chess_blitz.last.rating;
-//     const chessBlitzDate = new Date(data.chess_blitz.last.date * 1000); // Convert to milliseconds
-
-//     // Format the date into a human-readable format
-//     const options = { year: 'numeric', month: 'short', day: 'numeric' };
-//     const formattedDate = chessBlitzDate.toLocaleDateString('en-US', options);
-
-//     console.log(`Chess Blitz Rating: ${chessBlitzRating} on ${formattedDate}`);
-//   })
-//   .catch(error => {
-//     console.error('Error fetching data:', error);
-//   });

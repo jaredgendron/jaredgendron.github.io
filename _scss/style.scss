@@ -135,6 +135,31 @@ header {
   }
 }
 
+.portfolio-header {
+  background-color: $portfolio-background;
+  border-bottom: 0.001rem solid $tab-list-border-color;
+  color: $tab-list-color;
+
+  .profile{
+    h1 {
+      a{
+        color: $tab-list-color;
+      }
+    }
+  }
+
+  .header-content {
+    a {
+      color: $tab-list-color;
+    }
+  }
+  nav {
+    a {
+      color: $tab-list-color;
+    }
+  }
+}
+
 footer {
   background-color: white;
   display: flex;
