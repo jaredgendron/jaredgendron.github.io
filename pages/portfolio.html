@@ -21,6 +21,7 @@ permalink: /portfolio
           {% if project.year == i %}
             {% assign project_title=project.title %}
             {% assign project_href=project.permalink %}
+            {% assign project_category=project.category %}
             {% include project-link.html %}
           {% endif %}
         {% endfor %}

@@ -1,13 +1,15 @@
 ---
 layout: project
-title: Web Application
+title: Web Application for Configuring IoT Devices
+shortTitle: IoT Web Application
+category: Software
 permalink: /portfolio/WebApplication
-year: 5
+year: 4
 finished: false
 ---
 
 
-# Web Application for Configuring IoT Devices
+# {{ page.title }}
 
 `AWS` `LTE` `MQTT` `API` `LoRaWAN` `NodeJS`
 

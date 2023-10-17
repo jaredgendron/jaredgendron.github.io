@@ -1,12 +1,14 @@
 ---
 layout: project
 title: Robotic Arm with 3.5 Degrees of Freedom
+shortTitle: Robotic Arm with 3.5 DoF
+category: Control
 permalink: /portfolio/RoboticArm
 year: 3
 ---
 
 
-# Robotic Arm with 3.5 Degrees of Freedom
+# {{ page.title }}
 
 `Control` `MATLAB` `Simulink` `Microcontroller` `Simulation`
 

@@ -1,12 +1,14 @@
 ---
 layout: project
-title: Metal Detector with Advanced User Interface
+title: Metal Detector with User-Intuitive Interface
+shortTitle: Metal Detector
+category: Electrical
 permalink: /portfolio/MetalDetector
 year: 2
 ---
 
 
-# Metal Detector with Advanced User Interface
+# {{ page.title }}
 
 `Microcontroller` `C` `Oscillator` `Sensor`
 
@@ -14,6 +16,7 @@ year: 2
 
 In this completed project, I designed, built, programmed, and successfully tested a microcontroller-based frequency-meter metal detector. Metal detectors are commonly used for various purposes such as treasure hunting, security screening, and landmine clearance, relying on the change in inductance when metal is brought close to a wire coil. By incorporating this inductance change into an oscillator circuit, I achieved a frequency variation that allowed detection of the presence of nearby metal objects.
 
+## Description
 
 The successfully completed project encompassed several key components and functionalities. To begin, I selected a microcontroller system for the project and programmed it using the C programming language. An inductor was used for the sensor component.
 

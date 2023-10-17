@@ -1,12 +1,14 @@
 ---
 layout: project
-title: RC4 Decryption Hardware for an FPGA
+title: RC4 Decryption Hardware Written in Verilog for an FPGA
+shortTitle: RC4 Decryption Hardware
+category: Computer
 permalink: /portfolio/RC4Decryption
 year: 3
 ---
 
 
-# RC4 Decryption Hardware Written in Verilog for an FPGA
+# {{ page.title }}
 
 `FPGA` `Verilog` `Decryption` `Parallel Processing`
 

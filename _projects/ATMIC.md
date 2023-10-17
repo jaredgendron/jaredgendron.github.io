@@ -1,22 +1,24 @@
 ---
 layout: project
-title: ATM Integrated Chip Design
+title: Automated Teller Machine Integrated Chip Design
+shortTitle: ATM Integrated Chip
+category: Electrical
 permalink: /portfolio/ATMIC
 year: 4
 ---
 
 
-# Automated Teller Machine Integrated Chip Design
+# {{ page.title }}
 
 `IC Design` `Cadence` `Finite State Machine`
 
 ## Summary
 
-I successfully created an Automated Teller Machine (ATM) using a Finite State Machine (FSM) and then designed an integrated chip at the transistor level. Initially, I designed and implemented the ATM, ensuring it could perform key functions such as balance checking and withdrawals. Next, I used Cadence Encounter RTL Compiler to analyze the ATM's complexity and verify its functionality with ModelSim. Finally, I transformed the design into a physical layout using Cadence Innovus, emphasizing both efficiency and correctness. This project enhanced my practical knowledge of FSM applications in digital design and demonstrated my creative problem-solving and design skills.
+I successfully created an Automated Teller Machine (ATM) by designing a Finite State Machine (FSM) and then laying out an integrated chip at the transistor level. Initially, I designed and implemented the ATM, ensuring it could perform key functions such as balance checking and withdrawals. Next, I used Cadence Encounter RTL Compiler to analyze the ATM's complexity and verify its functionality with ModelSim. Finally, I transformed the design into a physical layout using Cadence Innovus, emphasizing both efficiency and correctness. This project enhanced my practical knowledge of FSM applications in digital design and demonstrated my creative problem-solving and design skills.
 
 ## Description
 
-In this project, I demonstrated Very Large Scale Integration (VLSI) techniques by designing the Finite State Machine (FSM) of an Automated Teller Machine (ATM) and designing an integrated chip using software tools such as Cadence Virtuoso. This project had three key phases, each contributing to my understanding of digital design and practical applications of FSMs.
+In this project, I demonstrated Very Large Scale Integration (VLSI) techniques by designing the Finite State Machine (FSM) of an Automated Teller Machine (ATM) and laying out an integrated chip using software tools such as Cadence Virtuoso. This project had three key phases, each contributing to my understanding of digital design and practical applications of FSMs.
 
 ![Integrated Chip](/assets/images/ATMIC/IC.png)
 

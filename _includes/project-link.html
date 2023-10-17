@@ -1,9 +1,16 @@
 <a href="{{ project_href | default: ''}}">
   <li class="project-link">
-    <div class="icon">
-      <i class="far fa-file"></i> 
-      <!-- far fa-folder -->
+    <div class="link-container">
+      <div class="primary">
+        <div class="icon">
+          <i class="far fa-file"></i> 
+          <!-- far fa-folder -->
+        </div>
+        {{ project_title | default: "Project Title"}}
+      </div>
+      <div class="secondary">
+        {{ project_category | default: ""}}
+      </div>
     </div>
-    {{ project_title | default: "Project Title"}}
   </li>
 </a>

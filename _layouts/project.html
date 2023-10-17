@@ -8,8 +8,9 @@ layout: layout
       <div class="table-header">Projects</div>
         {% assign projects = site.projects | sort: 'year' | reverse %}
         {% for project in projects %}
-          {% assign project_title=project.title %}
+          {% assign project_title=project.shortTitle %}
           {% assign project_href=project.permalink %}
+          {% assign project_category="" %}
           {% include project-link.html %}
         {% endfor %}
     </div>  

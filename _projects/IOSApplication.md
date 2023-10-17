@@ -1,13 +1,15 @@
 ---
 layout: project
-title: IOS Puzzle Game Application
-permalink: /portfolio/IOSApplication
+title: Puzzle Game Application for iOS
+shortTitle: iOS Puzzle Game App
+category: Software
+permalink: /portfolio/iOSApplication
 year: 5
 finished: false
 ---
 
 
-# Puzzle Game Application for IOS
+# {{ page.title }}
 
 `iOS` `Swift` `Python` `iPhone` `iPad` 
 
@@ -24,7 +26,7 @@ From the beginning of the design process, we incorporated elements to enhance th
 
 ![Image](/assets/images/IOSApp/game.jpg)
 
-Understanding the significance of generating revenue, we strategically integrated micro-transactions within the game, allowing users to purchase new levels or additional in-game content, thereby enhancing user engagement and monetization opportunities. Additionally, we proactively considered the inclusion of advertisements at appropriate intervals to strike a balance between ensuring a seamless user experience and creating opportunities for ad revenue.
+Understanding the significance of generating revenue, we strategically integrated micro-transactions within the game design, this would allow users to purchase new levels or additional in-game content, thereby enhancing user engagement and monetization opportunities. Additionally, we proactively considered the inclusion of advertisements at appropriate intervals to strike a balance between ensuring a seamless user experience and creating opportunities for ad revenue.
 
 ![Image](/assets/images/IOSApp/menu.jpg)
 

@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Standalone IoT Digital Parking Sign
-shortTitle: IoT Parking Sign
+title: IoT Display Module
+shortTitle: IoT Display Module
 category: Electrical
-permalink: /portfolio/IoTParkingSign
-year: 4
+permalink: /portfolio/IoTDisplayModule
+year: 5
 finished: false
 ---
 
