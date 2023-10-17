@@ -14,11 +14,12 @@ year: 2
 
 The main point of this project was to design, build, and program a Reflow Oven Controller from scratch using a microcontroller/processor. The controller was programmed in assembly language and incorporated a user-friendly interface with selectable reflow profile parameters. It featured precise temperature measurement capabilities using a K-type thermocouple and operated a standard 1500W toaster oven using a solid-state relay (SSR) to regulate power delivery. The controller also utilized Pulse Coded Modulation (PCM) and a Digital to Analog Converter (DAC) for audio feedback and communication with a personal computer for temperature data plotting. Safety features, including automatic cycle termination, were implemented to ensure safe and efficient reflow processes.
 
-![Image](/assets/images/ReflowController/userInterface.png)
 
 ## Description
 
 In this completed project, I designed, built, programmed, and thoroughly tested a sophisticated Reflow Oven Controller. The controller was programmed in assembly language, providing precise control over the reflow process. It included a user-friendly interface that allowed users to select reflow profile parameters, such as soak temperature, soak time, reflow temperature, and reflow time, through easily accessible pushbuttons. 
+
+![Image](/assets/images/ReflowController/userInterface.png)
 
 To ensure accurate temperature measurements, the controller utilized a K-type thermocouple with cold junction compensation, capable of measuring temperatures between 25°C and 240°C. A solid-state relay (SSR) was incorporated to regulate the power delivered by the standard 1500W toaster oven, and Pulse Width Modulation (PWM) was implemented for efficient control over the SSR. 
 

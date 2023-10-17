@@ -14,9 +14,10 @@ year: 2
 
 In this completed project, I designed, built, programmed, and successfully tested a microcontroller-based frequency-meter metal detector. Metal detectors are commonly used for various purposes such as treasure hunting, security screening, and landmine clearance, relying on the change in inductance when metal is brought close to a wire coil. By incorporating this inductance change into an oscillator circuit, I achieved a frequency variation that allowed detection of the presence of nearby metal objects.
 
-![Metal Detector](/assets/images/MetalDetector/metalDetector.jpg)
 
 The successfully completed project encompassed several key components and functionalities. To begin, I selected a microcontroller system for the project and programmed it using the C programming language. An inductor was used for the sensor component.
+
+![Metal Detector](/assets/images/MetalDetector/metalDetector.jpg)
 
 An essential element of the project was the Colpitts oscillator, which played a pivotal role in altering its frequency in response to variations in the inductance of the sensor coil. I implemented this oscillator using an LM555 timer. All programming for this module was executed using the C programming language.
 
