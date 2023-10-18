@@ -3,7 +3,7 @@
   "title": "Electrical Engineering Graduate",
   "location": "Vancouver, BC",
   "languages": ["C", "C++", "Assembly", "SystemVerilog", "Python", "Javascript", "React", "SQL", "Java", "Swift"],
-  "software": ["Altium Designer", "Cadence Virtuoso", "Git", "MATLAB", "Simulink", "SolidWorks", "AutoCAD", "LTspice", "Quartus", "ModelSim", "Jira", "Confluence", "Excel"],
+  "software": ["Altium Designer", "Cadence Virtuoso", "Cadence Innovus", "Git", "MATLAB", "Simulink", "SolidWorks", "AutoCAD", "LTspice", "Quartus", "ModelSim", "Jira", "Confluence", "Excel"],
   "strengths": ["Problem Solving", "Analytical thinking", "Attention to detail", "Communication", "Creative thinking", "Technical writing", "Project management"],
   "projects": [
     {
@@ -25,7 +25,7 @@
     {
       "title": "Puzzle Game iOS Application",
       "image": "assets/images/IOSApp/game.jpg",
-      "summary": "Designed and developed an iOS puzzle game from scratch. The game incorporated an algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application."
+      "summary": "Designed and developed an iOS puzzle game from scratch. The game was designed using Xcode and Swift and it incorporated an algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application."
     }
   ]
 }

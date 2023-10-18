@@ -2,7 +2,7 @@
 layout: project
 title: RC4 Decryption Hardware Written in Verilog for an FPGA
 shortTitle: RC4 Decryption Hardware
-category: Computer
+category: Hardware Design
 permalink: /portfolio/RC4Decryption
 year: 3
 ---
@@ -12,9 +12,11 @@ year: 3
 
 `FPGA` `Verilog` `Decryption` `Parallel Processing`
 
+*{{ page.category }}*
+
 ## Summary
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur.
+This project involved developing a digital circuit that integrated multiple on-chip memories, focusing on creating an RC4 Decryption circuit. It included designing a decryption circuit, constructing foundational components, and an ambitious extension to create an RC4 cracking circuit using a 'brute-force' strategy. The project provided hands-on experience in digital circuit design and deepened understanding of cryptographic algorithms. It marked a significant milestone, showcasing proficiency in complex digital circuit and cryptographic algorithm design and implementation.
 
 ## Description
 

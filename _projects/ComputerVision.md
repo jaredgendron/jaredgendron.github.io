@@ -2,7 +2,7 @@
 layout: project
 title: Computer Vision Heuristic Algorithm Written in Python
 shortTitle: Computer Vision Algorithm
-category: Electrical
+category: Software Development
 permalink: /portfolio/ComputerVision
 year: 2
 ---
@@ -11,6 +11,8 @@ year: 2
 # {{ page.title }}
 
 `Python` `Computer-Vision` `Convolution`
+
+*{{ page.category }}*
 
 ## Summary
 

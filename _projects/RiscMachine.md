@@ -2,7 +2,7 @@
 layout: project
 title: Simple Risc Machine Written in Verilog for an FPGA
 shortTitle: Simple RISC Machine
-category: Computer
+category: Hardware Design
 permalink: /portfolio/RiscMachine
 year: 2
 ---
@@ -11,6 +11,8 @@ year: 2
 # {{ page.title }}
 
 `FPGA` `Verilog` `Finite State Machine` `ARMv7` `Assembly`
+
+*{{ page.category }}*
 
 ## Summary
 

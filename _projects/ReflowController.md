@@ -2,7 +2,7 @@
 layout: project
 title: Reflow Oven Controller with Advanced User Interface and Safety Features
 shortTitle: Reflow Oven Controller
-category: Electrical
+category: Electrical & Firmware Design
 permalink: /portfolio/ReflowController
 year: 2
 ---
@@ -11,6 +11,8 @@ year: 2
 # {{ page.title }}
 
 `Assembly` `Python` `Hardware Design` `Soldering` `Microcontroller`
+
+*{{ page.category }}*
 
 ## Summary
 

@@ -2,7 +2,7 @@
 layout: project
 title: Metal Detector with User-Intuitive Interface
 shortTitle: Metal Detector
-category: Electrical
+category: Electrical & Firmware Design
 permalink: /portfolio/MetalDetector
 year: 2
 ---
@@ -11,6 +11,8 @@ year: 2
 # {{ page.title }}
 
 `Microcontroller` `C` `Oscillator` `Sensor`
+
+*{{ page.category }}*
 
 ## Summary
 

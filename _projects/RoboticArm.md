@@ -2,7 +2,7 @@
 layout: project
 title: Robotic Arm with 3.5 Degrees of Freedom
 shortTitle: Robotic Arm with 3.5 DoF
-category: Control
+category: Control System Design
 permalink: /portfolio/RoboticArm
 year: 3
 ---
@@ -11,6 +11,8 @@ year: 3
 # {{ page.title }}
 
 `Control` `MATLAB` `Simulink` `Microcontroller` `Simulation`
+
+*{{ page.category }}*
 
 ## Summary
 

@@ -2,7 +2,7 @@
 layout: project
 title: Standalone IoT Digital Parking Sign
 shortTitle: IoT Parking Sign
-category: Electrical
+category: Electrical System Design
 permalink: /portfolio/IoTParkingSign
 year: 4
 finished: false
@@ -13,6 +13,7 @@ finished: false
 
 `AWS` `LTE` `MQTT` `LoRaWAN` `NodeJS` `Altium` `PCB Design` 
 
+*{{ page.category }}*
 
 ## Summary
 

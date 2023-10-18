@@ -2,7 +2,7 @@
 layout: project
 title: IoT Display Module
 shortTitle: IoT Display Module
-category: Electrical
+category: Circuit & PCB Design
 permalink: /portfolio/IoTDisplayModule
 year: 5
 finished: false
@@ -13,6 +13,7 @@ finished: false
 
 `AWS` `LTE` `MQTT` `LoRaWAN` `NodeJS` `Altium` `PCB Design` 
 
+*{{ page.category }}*
 
 ## Summary
 
