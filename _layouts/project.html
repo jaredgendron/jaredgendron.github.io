@@ -10,7 +10,7 @@ layout: layout
         {% for project in projects %}
           {% assign project_title=project.shortTitle %}
           {% assign project_href=project.permalink %}
-          {% assign project_category="" %}
+          {% assign project_category=project.category %}
           {% include project-link.html %}
         {% endfor %}
     </div>  

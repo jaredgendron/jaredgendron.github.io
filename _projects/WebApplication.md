@@ -14,9 +14,11 @@ year: 4
 
 *{{ page.category }}*
 
+***This project is a component of a larger project which can be found [here](/portfolio/ParkingSign)***
+
 ## Summary
 
-In this transformative project, I ventured into the world of full-stack development to create a web application for wireless device management. Despite having no prior experience in web development, I took on the dual role of a front-end and back-end developer. On the front-end, I focused on designing a responsive and user-friendly interface, while simultaneously, I worked on the back-end, managing server-side logic, data storage, and communication with wireless devices. This comprehensive approach not only met the client's requirements but also broadened my knowledge and expertise within this field, highlighting the importance of adaptability in the ever-evolving realm of web applications and device control. The interface is designed to run on AWS servers, chosen based on operating system compatibility and scalability considerations. To ensure security, user authentication is required before configuring devices. Users can make real-time configurations and create precise hourly schedules, and the interface is responsive for mobile devices. Communication with devices occurs through LTE and USB connections for flexibility. The system utilizes the NodeJS runtime environment with Express.js and MQTT protocol for real-time communication.
+In this transformative project, I ventured into the world of full-stack development to create a web application for wireless device management. Despite having no prior experience in web development, I took on the dual role of a front-end and back-end developer. On the front-end, I focused on designing a responsive and user-friendly interface, while simultaneously, I worked on the back-end, managing server-side logic, data storage, and communication with wireless and wired devices. This comprehensive approach not only met the client's requirements but also broadened my knowledge and expertise within this field, highlighting the importance of adaptability in the ever-evolving realm of web applications and device control. The interface is designed to run on AWS servers, chosen based on operating system compatibility and scalability considerations. To ensure security, user authentication is required before configuring devices. Users can make real-time configurations and create precise hourly schedules, and the interface is responsive for mobile devices. Communication with devices occurs through LTE and USB connections for flexibility. The system utilizes the NodeJS runtime environment with Express.js and MQTT protocol for real-time communication.
 
 ## Description
 
@@ -32,37 +34,37 @@ The web application extends its functionality by exposing an Application Program
 
 ### Software Flow
 
-![Image](/assets/images/IoTParkingSign/webappflow.png)
+![Image](/assets/images/ParkingSign/webappflow.png)
 
 ### Login
 
 At the login screen of the web application, user credentials are a mandatory requirement for access. Users must provide a valid username and password combination to authenticate and gain entry into the system. This essential security measure ensures that only authorized individuals with the correct login credentials can access and interact with the application's features and functionalities, safeguarding sensitive information and maintaining data integrity.
 
-![Image](/assets/images/IoTParkingSign/login.png)
+![Image](/assets/images/ParkingSign/login.png)
 
 ### Dashboard
 
 The dashboard of the web application empowers administrative users with the ability to effectively monitor and manage connected devices. Through this interface, administrators can gain real-time insights into device statuses, configurations, and operational data. 
 
-![Image](/assets/images/IoTParkingSign/dashboard.png)
+![Image](/assets/images/ParkingSign/dashboard.png)
 
 ### Schedule
 
 The schedule page offers users the flexibility to create precise daily schedules down to the minute, providing fine-grained control over device operations. Users can define specific time intervals and actions, enabling automated and granular device configurations to suit their needs and preferences with precision and convenience.
 
-![Image](/assets/images/IoTParkingSign/schedule.png)
+![Image](/assets/images/ParkingSign/schedule.png)
 
 ### Manage
 
 The manage page simplifies device management by enabling users to create devices and seamlessly pair them with active controllers. Furthermore, this process ensures that the connected controllers are automatically updated and reflected in the controllers list, simplifying the user experience and facilitating efficient device-controller associations.
 
-![Image](/assets/images/IoTParkingSign/devices.png)
+![Image](/assets/images/ParkingSign/devices.png)
 
 ### Gallery
 
 The gallery page offers users the capability to upload images to the server for synchronization with devices, enhancing the versatility of the control interface. Users can conveniently upload images from either their computer or mobile device, making it effortless to integrate visual content into device configurations and interactions, enriching the overall user experience.
 
-![Image](/assets/images/IoTParkingSign/gallery.png)
+![Image](/assets/images/ParkingSign/gallery.png)
 
 This project has been a transformative experience for me as it provided the opportunity to delve into web application development from the ground up. Prior to this endeavor, I had never ventured into the realm of web applications, and it proved to be a truly rewarding journey. Learning how to design, build, and secure a web-based control interface, especially in the context of managing multiple wireless devices, was a significant challenge. 
 

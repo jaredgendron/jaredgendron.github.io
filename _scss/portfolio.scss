@@ -116,6 +116,15 @@
 
     .tabular-list{
       margin-top: 0;
+      a{
+        li {
+          // display: flex;
+          padding: .4rem 1rem;
+        }
+        .link-container{
+          flex-direction: column;
+        }
+      }
     }
 
     @media all and (max-width: $small-width) {
