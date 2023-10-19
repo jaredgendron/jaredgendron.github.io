@@ -2,7 +2,7 @@
 layout: project
 title: Wireless Display Module
 shortTitle: Wireless Display Module
-category: Circuit & PCB Design
+category: Electronic System Design
 permalink: /portfolio/DisplayModule
 year: 5
 ---
@@ -22,7 +22,7 @@ This project centers around the development of the Display Module, a pivotal com
 
 ## Description
 
-The solution of the Display Module reflects my expertise in both hardware and software engineering, and it encapsulates my commitment to crafting efficient and practical innovations. A core element of the Display Module is the utilization of two dedicated microcontrollers. The first microcontroller, adept in LTE connectivity, establishes and maintains a robust link with the web application through the use of the MQTT protocol. The second microcontroller, powered by the FreeRTOS operating system, is a multitasking marvel, efficiently managing multiple threads. This combination optimizes performance, making it an indispensable component for complex functions such as display management, image downloads, and interaction with the LTE microcontroller.
+The solution of the Display Module reflects my expertise in both hardware and software engineering, and it encapsulates my commitment to crafting efficient and practical innovations. A core element of the Display Module is the utilization of two dedicated microcontrollers. The first microcontroller, adept in LTE connectivity, establishes and maintains a robust link with the web application through the use of the MQTT protocol and a MQTT broker on the server. The second microcontroller, powered by the FreeRTOS operating system, is a multitasking marvel, efficiently managing multiple threads. This combination optimizes performance, making it an indispensable component for complex functions such as display management, image downloads, and interaction with the LTE microcontroller.
 
 **Efficient Communication**
 
@@ -40,7 +40,11 @@ The journey of the Display Module began with a prototype. At its inception, we c
 
 ![Image](/assets/images/ParkingSign/prototype.jpg)
 
-As the prototype succeeded in meeting the required specifications, I progressed to a more compact and efficient design. The development boards were transformed into a single PCB design, seamlessly integrating the AVR128DB48 microcontroller, GM02S cellular modem, and STM32M4 Mini into a unified unit, which is now the Display Module.
+As the prototype succeeded in driving the display and connecting with the web-application, I designed a development board carrier to reduce the wiring clutter during testing while I worked on a more compact and efficient design.
+
+![Image](/assets/images/ParkingSign/protoBoard.jpg)
+
+The development boards were transformed into a single PCB design, seamlessly integrating the AVR128DB48 microcontroller, GM02S cellular modem, and STM32M4 Mini into a unified unit, which is now the Display Module.
 
 ![Image](/assets/images/ParkingSign/pcb.png)
 

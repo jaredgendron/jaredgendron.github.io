@@ -1,7 +1,7 @@
 ---
 layout: project
 title: React Web-Based Word Game
-shortTitle: React Web-Based Word Game
+shortTitle: React Word Game
 category: Full-Stack Development
 permalink: /portfolio/ReactWordGame
 year: 5
