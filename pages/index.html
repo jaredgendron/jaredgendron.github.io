@@ -44,6 +44,15 @@ permalink: /
   <h2>About Me</h2>
   {% capture markdown_content %}{% include bio.md %}{% endcapture %}
   {{ markdown_content | markdownify }}
+
+  <a href="/portfolio" class="portfolio-link">
+    <div class="icon">
+      <i class="fas fa-arrow-right fa-lg"></i>
+    </div>
+    <p>
+      Go to my portfolio page
+    </p>
+  </a>
 </section>
 
 <section id="strengths">
@@ -109,14 +118,14 @@ permalink: /
       </div>
     </div>
   </div>
-  <a href="/portfolio" class="portfolio-link" id="portfolio-link">
+  <!-- <a href="/portfolio" class="portfolio-link" id="portfolio-link">
     <div class="icon">
       <i class="fa fa-folder-open"></i>
     </div>
     <p>
       Go to portfolio
     </p>
-  </a>
+  </a> -->
 </section>
 
 <script src="assets/js/carousel.js" type="text/javascript"></script>

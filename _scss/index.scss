@@ -173,6 +173,48 @@ section {
   @media only screen and (max-width: $small-width) {
     padding: 1rem 2rem;
   }
+
+  .portfolio-link{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    position: relative;
+    height: 2.5rem;
+    width: 16rem;
+    border: 1px solid black; 
+    border-radius: 5rem;
+    padding: 10px;
+    margin: 2rem 0;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+
+    @media only screen and (max-width: $small-width) {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    &:hover{
+      background-color: rgba(221, 221, 221, 0.61);
+    }
+  
+    .icon {
+      display: inline-block;
+      width: 3rem;
+      height: 3rem;
+      margin: 0.1rem;
+      color: black;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      text-justify: center;
+    
+      i {
+        line-height: 50px;
+        font-size: 1.5rem;
+      }
+    }
+  }
 }
 
 #skills {
@@ -356,14 +398,10 @@ section {
       position: absolute;
       height: 2.5rem;
       width: 12rem;
-      // background-color: rgb(16, 16, 16);
       border: 1px solid black; 
       border-radius: 5rem;
       padding: 10px;
       margin: 0 8rem;
-      // margin: 0 auto; // center horizontally
-      // left: 50%; /* Center horizontally */
-      // transform: translateX(-50%); /* Adjust for horizontal centering */
       bottom: 3rem;
       text-decoration: none;
       color: black;
@@ -372,8 +410,8 @@ section {
 
       @media only screen and (max-width: $small-width) {
         margin: 8rem 0;
-        left: 50%; /* Center horizontally */
-        transform: translateX(-50%); /* Adjust for horizontal centering */
+        left: 50%;
+        transform: translateX(-50%);
       }
     
       &:hover{
@@ -399,3 +437,4 @@ section {
     }
   }
 }
+
