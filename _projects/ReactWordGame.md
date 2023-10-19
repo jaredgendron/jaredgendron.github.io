@@ -29,8 +29,12 @@ The web application was meticulously crafted with a front-end built using the Re
 
 The web-based application offers a unique blend of riddle-solving and word-guessing challenges. Players are presented with a riddle that serves as a clue to identify the hidden word. The challenge lies in deciphering these riddles and using their linguistic skills to guess the word correctly. With a limited number of attempts, players can utilize up to two hints to guide them in the right direction. The game tracks player scores and progress, creating a sense of achievement and competition. Moreover, a social aspect allows players to share their progress and score with friends, facilitating friendly competition and collaboration.
 
+![Desktop Light](/assets/images/ReactWordGame/desktop-light.png)
+
 ### Integration and Communication
 
 A crucial aspect of the design was ensuring seamless communication between the React front-end and NodeJS back-end. To facilitate this, RESTful APIs were implemented. The integration between the front-end and back-end ensures that players can enjoy a continuous gaming experience and observe real-time updates, creating an immersive and engaging gameplay environment.
+
+![Mobile Dark](/assets/images/ReactWordGame/mobile-dark.png)
 
 In summary, the web application was thoughtfully designed with a React front-end and a NodeJS back-end to provide players with an immersive and seamless gaming experience. The user-friendly interface, combined with the responsive design, enhances user interaction, while the back-end manages game logic and data storage efficiently. The integration between the two components ensures real-time updates and secure communication, making the application a well-rounded and engaging platform for word enthusiasts.
