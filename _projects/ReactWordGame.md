@@ -5,7 +5,6 @@ shortTitle: React Word Game
 category: Full-Stack Development
 permalink: /portfolio/ReactWordGame
 year: 5
-finished: false
 ---
 
 
@@ -21,17 +20,11 @@ This project showcases a meticulously designed web application that seamlessly i
 
 ## Description
 
-### Web Application Design
-
 The web application was meticulously crafted with a front-end built using the React library and a back-end powered by NodeJS. React's component-based architecture allowed for the creation of a clean, responsive, and highly interactive user interface. This design ensures that players can easily navigate through the game screen, whether on a desktop or a mobile device. The React front-end, through its dynamic capabilities, allows players to enjoy a smooth and engaging experience. Meanwhile, the NodeJS back-end was designed to manage core game logic, including riddle generation, word verification, and player data storage. Leveraging NodeJS's event-driven and asynchronous nature, the back-end architecture was built to accommodate scalability and the potential for a growing user base while maintaining seamless gameplay.
 
-### Gameplay Mechanics
-
-The web-based application offers a unique blend of riddle-solving and word-guessing challenges. Players are presented with a riddle that serves as a clue to identify the hidden word. The challenge lies in deciphering these riddles and using their linguistic skills to guess the word correctly. With a limited number of attempts, players can utilize up to two hints to guide them in the right direction. The game tracks player scores and progress, creating a sense of achievement and competition. Moreover, a social aspect allows players to share their progress and score with friends, facilitating friendly competition and collaboration.
+The web-based application offers a unique blend of riddle-solving and word-guessing challenges. Players are presented with a riddle that serves as a clue to identify the hidden word. The challenge lies in deciphering these riddles and using their linguistic skills to guess the word correctly. With a limited number of attempts, players can utilize up to two hints to guide them in the right direction. The game tracks player scores and progress, creating a sense of achievement and competition. Moreover, a social aspect allows players to share their progress and score with friends, facilitating friendly competition and collaboration. The player is able to input their guess using the on-screen keyboard or with their own keyboard.
 
 ![Desktop Light](/assets/images/ReactWordGame/desktop-light.png)
-
-### Integration and Communication
 
 A crucial aspect of the design was ensuring seamless communication between the React front-end and NodeJS back-end. To facilitate this, RESTful APIs were implemented. The integration between the front-end and back-end ensures that players can enjoy a continuous gaming experience and observe real-time updates, creating an immersive and engaging gameplay environment.
 

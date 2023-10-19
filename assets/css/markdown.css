@@ -100,10 +100,10 @@
 
 .markdown-body img {
   border-style: none;
-  height: auto;
   max-width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: contain;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
   background-color: #ffffff;
   display: block;
   margin-left: auto;
@@ -111,12 +111,6 @@
   box-sizing: content-box;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-@media all and (max-width: 700px) {
-  .markdown-body img {
-    aspect-ratio: auto;
-  }
 }
 
 .markdown-body code,

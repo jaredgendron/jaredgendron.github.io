@@ -24,7 +24,7 @@ The successfully completed project encompassed several key components and functi
 
 ![Metal Detector](/assets/images/MetalDetector/metalDetector.jpg)
 
-An essential element of the project was the Colpitts oscillator, which played a pivotal role in altering its frequency in response to variations in the inductance of the sensor coil. I implemented this oscillator using an LM555 timer. All programming for this module was executed using the C programming language.
+An essential element of the project was the Colpitts oscillator, which played a pivotal role in altering its frequency in response to variations in the inductance of the sensor coil. I implemented this oscillator using an LM555 timer. All programming for this module was written using the C programming language.
 
 To provide an audible indication of metal detection, I incorporated a small speaker. The successfully completed metal detector exhibited the capability to detect all Canadian coins from a distance of approximately 1 cm, meeting the specified detection requirements.
 
@@ -39,3 +39,5 @@ Additionally, the metal detector featured an LED distance indication meter. Depe
 Furthermore, I implemented a calibration feature within the user interface menu. Users could select this option to calibrate the metal detector, making adjustments for any anomalies in the surrounding environment where it was used.
 
 ![Metal Detector](/assets/images/MetalDetector/welcomeScreen.png)
+
+In conclusion, this project represents a successful integration of various components and features, resulting in an advanced metal detector system. From the careful selection and programming of the microcontroller to the implementation of the Colpitts oscillator and the user-friendly interface, this metal detector exhibits impressive capabilities. It reliably detects Canadian coins from a 1 cm distance, and the LED distance indication meter provides real-time feedback to users. Moreover, the inclusion of a calibration feature enhances the detector's adaptability to different environments. This project showcases a comprehensive and versatile metal detection solution that combines engineering skill and innovation.
