@@ -10,22 +10,22 @@
       "document": "RobotArm",
       "title": "3.5 DoF Robotic Arm",
       "image": "assets/images/RoboticArm/robot.png",
-      "summary": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. I designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot. I ran thorough control and mechanical simulations of the design using a conjunction of MATLAB/Simulink and SimulationX software to fine-tune the system ahead of real-time testing."
+      "summary": "Took on the control engineering lead in a 3 person team designing a robotic arm with 3.5 degrees of freedom. I designed and fine-tuned a PID controller algorithm using MATLAB & Simulink and ported the algorithm to C for programming a microcontroller to control the robot."
     },
     {
       "title": "Digital IoT Parking Sign",
       "image": "assets/images/ParkingSign/sign.png",
-      "summary": "Created an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates on an hourly schedule or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application."
+      "summary": "Created an innovative digital parking sign that dynamically adjusts its display based on real-time data. This sign can receive updates from a web-application or by an hourly schedule and respond to feedback from sensors."
     },
     {
       "title": "ATM Integrated Chip Design",
       "image": "assets/images/ATMIC/IC.png",
-      "summary": "Created an Automated Teller Machine (ATM) using a Finite State Machine (FSM) and then designed an integrated chip at the transistor level. Initially, I designed and implemented the ATM, ensuring it could perform key functions such as balance checking and withdrawals. Next, I used Cadence Encounter RTL Compiler to analyze the ATM's complexity and verify its functionality with ModelSim. Finally, I transformed the design into a physical layout using Cadence Innovus, emphasizing both efficiency and correctness. This project enhanced my practical knowledge of FSM applications in digital design and demonstrated my creative problem-solving and design skills."
+      "summary": "Created an Automated Teller Machine (ATM) using a Finite State Machine (FSM) and then designed an integrated chip at the transistor level. I designed the ATM ensuring it could perform key functions such as balance checking and withdrawals."
     },
     {
       "title": "Puzzle Game iOS Application",
       "image": "assets/images/IOSApp/game.jpg",
-      "summary": "Designed and developed an iOS puzzle game from scratch. The game was designed using Xcode and Swift and it incorporated an algorithm to generate an endless variety of unique and solvable puzzles, eliminating the need for manual level design and saving time and resources. Additionally, the team strategically integrated revenue-generating features, such as micro-transactions for new levels and advertisements, to ensure a successful and profitable application."
+      "summary": "Designed and developed an iOS puzzle game from scratch. The game was designed using Xcode and Swift and it incorporated an algorithm to generate an endless variety of unique and solvable puzzles."
     }
   ]
 }
