@@ -42,8 +42,8 @@
   }
 
   .tabular-list{
-    border: .002rem solid $tab-list-border-color; /* 2px black solid border */
-    border-radius: 10px; /* 10px border radius for rounded edges */
+    border: .002rem solid $tab-list-border-color;
+    border-radius: 10px;
     overflow: hidden;
     margin-top: 1rem;
     box-shadow: 0 0 10px 0.5px rgba(.025, .025, .025, .025);
@@ -61,7 +61,6 @@
       text-decoration: none;
       
       li {
-        // display: flex;
         padding: .65rem 1rem;
         list-style: none;
         border-top: 1px solid hsla(210,18%,87%,1);
@@ -102,22 +101,21 @@
   }
 
   .sidebar {
-    position: sticky; /* Make the sidebar fixed */
-    top: $header-height+4rem; /* Stick the sidebar to the top of the viewport */
-    bottom: 1rem; /* Stretch the sidebar to the bottom of the viewport */
-    left: 3rem; /* Stick the sidebar to the left of the viewport */
+    position: sticky;
+    top: $header-height+4rem;
+    bottom: 1rem;
+    left: 3rem;
     width: $sidebar-width;
     max-height: 75vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     transition: top 0.2s ease-in-out;
     z-index: 1000;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;
 
     .tabular-list{
       margin-top: 0;
       a{
         li {
-          // display: flex;
           padding: .4rem 1rem;
         }
         .link-container{
@@ -132,30 +130,28 @@
 
     &::-webkit-scrollbar {
       width: 8px;
-      background-color: transparent; /* Initially transparent */
+      background-color: transparent;
     }
   
     &::-webkit-scrollbar-thumb {
-      background-color: rgba(0,0,0,0); /* Initially transparent */
+      background-color: rgba(0,0,0,0);
       border-radius: 4px;
-      transition: background-color 0.3s ease-in-out; /* Smooth transition */
     }
 
     &::-webkit-scrollbar-track {
-      background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+      background-color: rgba(0, 0, 0, 0);
       border-radius: 4px;
-      transition: background-color 0.3s ease-in-out; /* Smooth transition */
     }
   
     &:hover {
       &::-webkit-scrollbar-thumb {
-        background-color: rgba(0,0,0,0.5); /* Visible on hover */
+        background-color: rgba(0,0,0,0.5);
       }
       &::-webkit-scrollbar-track {
-        background-color: rgba(0, 0, 0, 0.137); /* Visible on hover */
+        background-color: rgba(0, 0, 0, 0.137);
       }
-      scrollbar-width: thin; /* Firefox */
-      -ms-overflow-style: scrollbar; /* IE and Edge */
+      scrollbar-width: thin;
+      -ms-overflow-style: scrollbar;
     }
   }
 
@@ -163,8 +159,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .15rem solid $notice-color; /* 2px black solid border */
-    border-radius: 10px; /* 10px border radius for rounded edges */
+    border: .15rem solid $notice-color;
+    border-radius: 10px;
     overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -180,11 +176,7 @@
 
     .icon {
       display: inline-block;
-      // width: 2rem;
-      // height: 2rem;
       margin: 0rem 1rem;
-
-      // position: relative;
       text-align: center;
       text-justify: center;
     
