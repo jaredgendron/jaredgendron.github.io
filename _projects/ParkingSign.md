@@ -19,7 +19,7 @@ year: 4
 The main point of the project was to create an innovative digital parking sign that dynamically adjusts its display based on real-time data. Unlike a physical parking sign, this digital sign features an LCD display that can be changed dynamically to present different parking signs throughout the day. This sign can receive updates through a schedule, receive uploaded images, or respond to feedback from sensors, providing flexibility and adaptability. The project demonstrated strong leadership in overseeing the entire lifecycle, from conception to deployment, and employed robust engineering and wireless technologies to establish a seamless and secure connection between the sign and a web application.
 
 ***This project is broken into several components, those of which I took on the lead responsiblity for can be found here:***
-- **[Display Module](/portfolio/IoTDisplayModule)**
+- **[Display Module](/portfolio/DisplayModule)**
 - **[Web Application](/portfolio/WebApplication)**
 
 ## Description
