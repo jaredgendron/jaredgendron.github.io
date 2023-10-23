@@ -3,6 +3,8 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 2rem 10%;
+  height: 100%;
+  width: 100%;
 
   @media only screen and (max-width: $small-width) {
     padding: 1rem 0;
@@ -30,18 +32,15 @@ section {
     position: absolute;
     height: 2.5rem;
     width: 16rem;
-    border: 1px solid black; 
+    border: 0.07rem solid black; 
     border-radius: 5rem;
     padding: 10px;
-    margin: 2rem 2rem;
     text-decoration: none;
     color: black;
     transition: background-color 0.3s ease;
 
     @media only screen and (max-width: $small-width) {
-      margin: 8rem 0;
-      left: 50%;
-      transform: translateX(-50%);
+      align-self: center;
     }
   
     &:hover{
@@ -364,6 +363,23 @@ section {
       flex-direction: column;
       justify-content: space-between;
       height: 100%;
+      padding: 0 8rem;
+
+      @media only screen and (max-width: $small-width) {
+        padding: 0 2rem;
+      }
+    }
+
+    .portfolio-button {
+      position: relative;
+      align-self: flex-start;
+      top: 18rem;
+      z-index: 999;
+
+      @media only screen and (max-width: $small-width) {
+        align-self: center;
+        top: 22rem;
+      }
     }
 
     .pagination {
@@ -395,12 +411,7 @@ section {
         }
       }
     }
-    
-    .portfolio-button {
-      bottom: 3rem;
-      margin: 0 8rem;
-      z-index: 2;
-    }
   }
+
 }
 

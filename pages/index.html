@@ -101,15 +101,15 @@ permalink: /
         </div>
       </div>
       {% endfor %}
-      <a href="/portfolio" class="portfolio-button">
-        <div class="icon">
-          <i class="fas fa-arrow-right fa-lg"></i>
-        </div>
-        <p>
-          Go to my portfolio page
-        </p>
-      </a>
       <div class="page-container">
+        <a href="/portfolio" class="portfolio-button">
+          <div class="icon">
+            <i class="fas fa-arrow-right fa-lg"></i>
+          </div>
+          <p>
+            Go to my portfolio page
+          </p>
+        </a>
         <div class="pagination">
           {% for project in site.data.data.projects %}
             <button class="page-btn" data-slide="{{ forloop.index }}"></button>
