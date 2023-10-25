@@ -3,16 +3,21 @@ layout: layout
 ---
 
 <div class="wrapper">
-  <div class=sidebar id="sidebar">
-    <div class="tabular-list">
-      <div class="table-header">Projects</div>
-        {% assign projects = site.projects | sort: 'year' | reverse %}
-        {% for project in projects %}
-          {% assign project_title=project.shortTitle %}
-          {% assign project_href=project.permalink %}
-          {% assign project_category=project.category %}
-          {% include project-link.html %}
-        {% endfor %}
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      Projects
+    </div>
+    <div class="sidebar-content">
+      <div class="tabular-list">
+        <!-- <div class="table-header">Projects</div> -->
+          {% assign projects = site.projects | sort: 'year' | reverse %}
+          {% for project in projects %}
+            {% assign project_title=project.shortTitle %}
+            {% assign project_href=project.permalink %}
+            {% assign project_category=project.category %}
+            {% include project-link.html %}
+          {% endfor %}
+      </div>
     </div>  
   </div>
   <div class="content">

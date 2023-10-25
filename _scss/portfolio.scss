@@ -43,7 +43,7 @@
 
   .tabular-list{
     border: .002rem solid $tab-list-border-color;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     overflow: hidden;
     margin-top: 1rem;
     box-shadow: 0 0 10px 0.5px rgba(.025, .025, .025, .025);
@@ -106,14 +106,38 @@
     bottom: 1rem;
     left: 3rem;
     width: $sidebar-width;
-    max-height: 75vh;
-    overflow-y: auto;
-    transition: top 0.2s ease-in-out;
+    border: .002rem solid $tab-list-border-color;
+    border-radius: 0.5rem;
     z-index: 1000;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0.5px rgba(.025, .025, .025, .025);
+    transition: top 0.2s ease-in-out;
+
+    @media all and (max-width: $small-width) {
+      display: none;
+    }
+  }
+
+  .sidebar-header {
+    background-color: $tab-list-hover;
+    font-weight: 530;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid hsla(210,18%,87%,1);
+    font-size: 1rem;
+    color: $tab-list-color;
+  }
+
+  .sidebar-content {
+    max-height: 65vh;
+    overflow-y: auto;
     -ms-overflow-style: none;
 
     .tabular-list{
       margin-top: 0;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+
       a{
         li {
           padding: .4rem 1rem;
@@ -121,26 +145,27 @@
         .link-container{
           flex-direction: column;
         }
+        &:first-of-type {
+          li {
+            border: none;
+          }
+        }
       }
     }
 
-    @media all and (max-width: $small-width) {
-      display: none;
-    }
-
     &::-webkit-scrollbar {
-      width: 8px;
+      width: 0.5rem;
       background-color: transparent;
     }
   
     &::-webkit-scrollbar-thumb {
-      background-color: rgba(0,0,0,0);
-      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.12);
+      border-radius: 0.5rem;
     }
 
     &::-webkit-scrollbar-track {
-      background-color: rgba(0, 0, 0, 0);
-      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.09);
+      border-radius: 0.5rem;
     }
   
     &:hover {
