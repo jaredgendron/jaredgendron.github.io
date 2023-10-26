@@ -10,7 +10,7 @@ year: 5
 
 # {{ page.title }}
 
-`React` `NodeJS`
+`React` `NodeJS` `RESTful` `Full-stack`
 
 *{{ page.category }}*
 

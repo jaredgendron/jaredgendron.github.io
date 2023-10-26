@@ -1,5 +1,4 @@
 const navbarHeight = $('header').outerHeight();
-// const portfolioButton = document.getElementById('portfolio-link');
 const header = $('header');
 
 if (window.location.pathname.startsWith('/portfolio')) {
@@ -39,16 +38,10 @@ function hasScrolled() {
   if (st > lastScrollTop && st > navbarHeight){
     $('header').css('top', -navbarHeight);
     $('#sidebar').css('top', currentTop-navbarHeight);
-    // if (portfolioButton !== null){
-    //   portfolioButton.style.bottom = '1.5rem';
-    // }
   } else {
     if(st + $(window).height() < $(document).height()) {
       $('header').css('top', 0);
       $('#sidebar').css('top', currentTop);
-      // if (portfolioButton !== null){
-      //   portfolioButton.style.bottom = '-100%';
-      // }
     }
   }
   
