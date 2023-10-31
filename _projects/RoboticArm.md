@@ -20,7 +20,7 @@ Took on the control engineering lead in a 3 person team designing a robotic arm 
 
 ## Description
 
-In this project, I was responsible for designing the complete control system of a robot featuring 3.5 degrees of freedom. It was a great learning experience where I gained insights into control engineering, software development, and how theory and practice come together.
+In this project, I was responsible for designing the complete control system of a robot featuring 3.5 degrees of freedom. It was a great learning experience where I gained insights into control engineering, firmware development, and how theory and practice come together.
 
 ![Current Driving PCB](/assets/images/RoboticArm/robot.png)
 

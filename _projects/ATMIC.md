@@ -22,7 +22,7 @@ I successfully created an Automated Teller Machine (ATM) by designing a Finite S
 
 In this project, I demonstrated Very Large Scale Integration (VLSI) techniques by designing the Finite State Machine (FSM) of an Automated Teller Machine (ATM) and then laying out an integrated chip using software tools such as Cadence Innovus. This project had three key phases, each contributing to my understanding of digital design and practical applications of FSMs.
 
-*The screen capture of my integrated chip below was created using [GDS3D](https://github.com/trilomix/GDS3D), an application used for rendering IC chip layouts in 3D, developed by the Integrated Circuit Design Group and the University of Twente*
+*The screen capture of my integrated chip below was created using [GDS3D](https://github.com/trilomix/GDS3D), an application used for rendering IC chip layouts in 3D developed by the Integrated Circuit Design Group at the University of Twente*
 
 ![Integrated Chip](/assets/images/ATMIC/IC.png)
 
