@@ -26,7 +26,7 @@ The solution of the Display Module reflects my expertise in both hardware and so
 
 **Efficient Communication**
 
-The LTE microcontroller plays a pivotal role in ensuring seamless internet connectivity. This cellular connection forms the bridge for communication with the web application, facilitating data exchange and responsive functionality. The incorporation of an SPI connection enhances data transfer between microcontrollers, streamlining communication and increasing overall system responsiveness.
+The LTE microcontroller plays a pivotal role in ensuring seamless internet connectivity. This cellular connection forms the bridge for communication with the web application, facilitating data exchange and responsive functionality. The incorporation of a SPI connection enhances data transfer between microcontrollers, streamlining communication and increasing overall system responsiveness.
 
 ![Image](/assets/images/ParkingSign/cellularflow.png)
 
