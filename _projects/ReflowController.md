@@ -20,7 +20,7 @@ The main point of this project was to design, build, and program a Reflow Oven C
 
 ## Description
 
-In this completed project, I designed, built, programmed, and thoroughly tested a sophisticated Reflow Oven Controller. The controller was programmed in assembly language, providing precise control over the reflow process. It included a user-friendly interface that allowed users to select reflow profile parameters, such as soak temperature, soak time, reflow temperature, and reflow time, through easily accessible pushbuttons. 
+In this completed project, I designed, built, programmed, and thoroughly tested a sophisticated Reflow Oven Controller in a team of 4 students. The controller was programmed in assembly language, providing precise control over the reflow process. It included a user-friendly interface that allowed users to select reflow profile parameters, such as soak temperature, soak time, reflow temperature, and reflow time, through easily accessible pushbuttons. 
 
 ![Image](/assets/images/ReflowController/userInterface.png)
 
