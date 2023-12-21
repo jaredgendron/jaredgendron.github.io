@@ -2,7 +2,7 @@
 layout: project
 title: Metal Detector with User-Intuitive Interface
 shortTitle: Metal Detector
-category: Electronic System Design
+category: Embedded System Design
 permalink: /portfolio/MetalDetector
 year: 2
 ---

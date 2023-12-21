@@ -2,7 +2,7 @@
 layout: project
 title: Reflow Oven Controller with Advanced User Interface and Safety Features
 shortTitle: Reflow Oven Controller
-category: Electronic System Design
+category: Embedded System Design
 permalink: /portfolio/ReflowController
 year: 2
 ---

@@ -2,7 +2,7 @@
 layout: project
 title: Wireless Display Module
 shortTitle: Wireless Display Module
-category: Electronic System Design
+category: Embedded System Design
 permalink: /portfolio/DisplayModule
 year: 5
 ---

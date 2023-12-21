@@ -2,7 +2,7 @@
 layout: project
 title: Dynamic Parking Signage
 shortTitle: Dynamic Parking Signage
-category: Electronic System Design
+category: Embedded System Design
 permalink: /portfolio/ParkingSign
 year: 4
 ---
